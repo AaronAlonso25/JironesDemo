@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 168f545da4fcc394086ee816f8da9498
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: GameCoreXboxOne
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS5
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: GameCoreScarlett
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FORREST_SS_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 111
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc966ab79750e54b8d6b1cc18c64a05
+      internalID: 626567711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 111
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aac9714e83065a40abb7525d963e52c
+      internalID: 69673382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 111
+        width: 21
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c825641a28624cd4482198e650044664
+      internalID: 2017426847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_3
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 111
+        width: 21
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925d9000fca589840b92df62755fb2e3
+      internalID: -1606599187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_4
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 111
+        width: 21
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce381e4f13d381942b6c51c049adbef3
+      internalID: 796445579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_5
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 111
+        width: 21
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033306c8776139146b3a5c0bb9490295
+      internalID: 88208274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 739
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd052db854b42384b8b3f3ac1af23fb9
+      internalID: -2053449881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 739
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8d7295bb742194999863890a0d2c88
+      internalID: 1176162554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 739
+        width: 21
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f8bd74d6e43e24881d94bff1f17a9d
+      internalID: 2140666493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_9
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 739
+        width: 21
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebd9e2fefe453940b0cc6d2aa611a91
+      internalID: 372803988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_10
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 739
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979b30a2c3d0a104faac0324cb009da9
+      internalID: 1554265694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_11
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 739
+        width: 30
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1c49d7873b1fe4e94ffe874fe014e1
+      internalID: 1144697698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_12
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 739
+        width: 38
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69dd66afb2277e40ab5b20b2056cac0
+      internalID: 245573362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_13
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 739
+        width: 88
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f66f43ddfd238642a0c2712a3f58ce9
+      internalID: -1797250303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 639
+        width: 97
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d885cfd4e461046b93b078b8717c6d
+      internalID: 2035812322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 639
+        width: 71
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0954d860323b24683622c75ba71b60
+      internalID: -1650493516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_16
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 639
+        width: 90
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651f84f7af4ebf243848c6841b432531
+      internalID: -557964838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_17
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 639
+        width: 40
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a284b80a7e8033f448482e950b33fa54
+      internalID: 861989489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_18
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 639
+        width: 40
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d3229b26046684a8ab2fe5f2d8c05d
+      internalID: -779906902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_19
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 639
+        width: 40
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec1dbb5ed8fd9a41861f512934b2e36
+      internalID: -376279307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_20
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 639
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f812d0bce16d974195edcd3b98aa84c
+      internalID: 1417636994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_21
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 639
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389cb42b304039049abaac49ca6d73ad
+      internalID: 1820448629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 539
+        width: 21
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eb96e8dae875f47ad97baf98021ea1
+      internalID: 445834755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 539
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6425da275b4fa9240b24e6ae1da40dbe
+      internalID: -1271879982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 381
+        width: 21
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7828d5866816b804d857542ab1a554ab
+      internalID: 1835058111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_25
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 381
+        width: 33
+        height: 68
+      alignment: 9
+      pivot: {x: 0.8483683, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d214f6f3b182c34f933add72920822b
+      internalID: 1393086505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_26
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 381
+        width: 33
+        height: 68
+      alignment: 9
+      pivot: {x: 0.8483683, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0abe31c8113144a8e83f2b83f0cde4
+      internalID: 1063553364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_27
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 381
+        width: 35
+        height: 66
+      alignment: 9
+      pivot: {x: 0.94308734, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099e90efae1a2814e82c15ab62087fa4
+      internalID: -2007114262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_28
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 381
+        width: 45
+        height: 60
+      alignment: 9
+      pivot: {x: 0.7780762, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f55a226a092f44c9c0d59d4a0518f4
+      internalID: 1872761267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_29
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 381
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5093439, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805f2878169c2fe4ab69bf0b2aa8145e
+      internalID: -693272799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_30
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 381
+        width: 64
+        height: 43
+      alignment: 9
+      pivot: {x: 0.3434887, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67d7f5f49b3c934987b1d0ca321e7eb
+      internalID: 1587378052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_31
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 381
+        width: 63
+        height: 43
+      alignment: 9
+      pivot: {x: 0.12704614, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ae2e4ea96a0cc48848a3f20d154e99
+      internalID: -226143318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 281
+        width: 61
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523ec1af5fddb5344b06b210947c7a24
+      internalID: -1331448007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 281
+        width: 62
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dfa5dc1a0658d44a88f256014741df
+      internalID: 23679105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_34
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 281
+        width: 62
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1472dace8fc97b4a87957c76e2b3f74
+      internalID: -1212620949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FORREST_SS_35
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 281
+        width: 62
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128ae19d4e00e6b44a05481ab75659a3
+      internalID: 153103654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FORREST_SS_0: 626567711
+      FORREST_SS_1: 69673382
+      FORREST_SS_10: 448924502
+      FORREST_SS_11: -1749952467
+      FORREST_SS_12: -1343793030
+      FORREST_SS_13: 1347419292
+      FORREST_SS_14: 359907350
+      FORREST_SS_15: 591175640
+      FORREST_SS_16: 1509357383
+      FORREST_SS_17: 1834931103
+      FORREST_SS_18: 998271414
+      FORREST_SS_19: -1931350822
+      FORREST_SS_2: 2017426847
+      FORREST_SS_20: 281044602
+      FORREST_SS_21: -1261463895
+      FORREST_SS_22: -89588520
+      FORREST_SS_23: -315986755
+      FORREST_SS_24: -149766549
+      FORREST_SS_25: 1185626430
+      FORREST_SS_26: -48795475
+      FORREST_SS_27: 1621317453
+      FORREST_SS_28: -436958051
+      FORREST_SS_29: 322056956
+      FORREST_SS_3: -1606599187
+      FORREST_SS_30: 1325479402
+      FORREST_SS_31: 1876681907
+      FORREST_SS_32: -1947966949
+      FORREST_SS_33: 1700801598
+      FORREST_SS_34: 1162455522
+      FORREST_SS_35: -853898997
+      FORREST_SS_4: 796445579
+      FORREST_SS_5: 88208274
+      FORREST_SS_6: -2053449881
+      FORREST_SS_7: -394829372
+      FORREST_SS_8: 1275459256
+      FORREST_SS_9: -88352404
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

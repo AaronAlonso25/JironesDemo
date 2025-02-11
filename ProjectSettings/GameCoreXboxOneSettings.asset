@@ -1,0 +1,17 @@
+{
+    "buildSubtarget": 1,
+    "deploymentMethod": 2,
+    "deploymentDrive": 0,
+    "scid": "00000000-0000-0000-0000-0000628665a8",
+    "packageEncryption": 1,
+    "localizationPathOverride": "Assets/Localization/GameCoreXboxOne",
+    "resourcePriPathOverride": "Assets/Localization/GameCoreXboxOne",
+    "m_CopyImageMode": 0,
+    "xboxOneResolutionWidth": 1920,
+    "xboxOneResolutionHeight": 1080,
+    "xboxOneSResolutionWidth": 1920,
+    "xboxOneSResolutionHeight": 1080,
+    "xboxOneXResolutionWidth": 2560,
+    "xboxOneXResolutionHeight": 1440,
+    "esramDisabled": false
+}

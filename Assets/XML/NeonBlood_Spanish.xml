@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neonBlood>
+  <languages>
+    <language>
+      <name>Spanish</name>
+      <menus>
+        <menu key="Prompt">
+          <container>
+            <text>PULSA CUALQUIER BOTÓN</text>
+          </container>
+        </menu>
+        <menu key="MainMenu">
+          <title></title>
+          <buttons>
+            <button>NUEVA PARTIDA</button>
+            <button>CONTINUAR</button>
+            <button>OPCIONES</button>
+            <button>CRÉDITOS</button>
+          </buttons>
+          <container>
+            <title></title>
+            <text></text>
+          </container>
+        </menu>
+        <menu key="Credits">
+          <title>CRÉDITOS</title>
+          <buttons>
+            <button></button>
+          </buttons>
+          <container>
+            <title>Menu Container Title</title>
+            <text>Menu Container Text</text>
+          </container>
+        </menu>
+        <menu key="Options">
+          <title>OPCIONES</title>
+          <buttons>
+            <button>JUEGO</button>
+            <button>PANTALLA</button>
+            <button>AUDIO</button>
+            <button>CONTROLES</button>
+          </buttons>
+        </menu>
+        <menu key="Controls">
+          <buttons>
+            <button>MIRAR</button>
+            <button>INTERACTUAR/LANZAR</button>
+            <button>SALTAR/INTERACTUAR</button>
+            <button>RODAR/SOLTAR</button>
+            <button>AGACHARSE/BUCEAR</button>
+            <button>MOVERSE</button>
+            <button>CORRER</button>
+            <button>SACAR/GUARDAR ANTORCHA</button>
+          </buttons>
+        </menu> 
+      </menus>
+      <tutorials>
+        <container key="Tutorial_0">
+          <title>Tutorial Title</title>
+          <text>PULSA btn_cross PARA SALTAR</text>
+        </container>
+        <container key="Tutorial_1">
+          <title>Tutorial Title</title>
+          <text>PULSA btn_circle PARA RODAR</text>
+        </container>
+        <container key="Tutorial_2">
+          <title>Tutorial Title</title>
+          <text>PULSA R1 PARA CORRER</text>
+        </container>
+        <container key="Tutorial_3">
+          <title>Tutorial Title</title>
+          <text>PULSA btn_triangle PARA EMPUJAR</text>
+        </container>
+        <container key="Tutorial_4">
+          <title>Tutorial Title</title>
+          <text>PULSA btn_square PARA DISPARAR</text>
+        </container>
+      </tutorials>
+      <locations>
+        <location key="PlaygroundScene">
+          <title>PlaygroundScene</title>
+          <text>PlaygroundScene</text>
+        </location>
+      </locations>
+      <quests>
+        <quest key="PlaygroundScene_0">
+          <title>Playground 0 Title</title>
+          <text>Playground 0 Description</text>
+        </quest>
+        <quest key="PlaygroundScene_1">
+          <title>Playground 1 Title</title>
+          <text>Playground 1 Description</text>
+        </quest>
+      </quests>
+      <characters>
+        <character key="Axel">
+          <name>AXEL MCCOIN</name>
+          <description>AXEL MCCOIN Description</description>
+        </character>
+        <character key="Varya">
+          <name>VARYA MCCOIN</name>
+          <description>VARYA MCCOIN Description</description>
+        </character>
+      </characters>
+      <objects>
+        <object key="Potion">
+          <title>Potion</title>
+          <short>Potion Short Text</short>
+          <description>Potion Long Text</description>
+        </object>
+        <object key="MaxPotion">
+          <title>MaxPotion</title>
+          <short>MaxPotion Short Text</short>
+          <description>MaxPotion Long Text</description>
+        </object>
+        <object key="Gun">
+          <title>Gun</title>
+          <short>Gun Short Text</short>
+          <description>Gun Long Text</description>
+        </object>
+        <object key="Chip">
+          <title>Chip</title>
+          <short>Chip Short Text</short>
+          <description>Chip Long Text</description>
+        </object>
+        <object key="Trash">
+          <title>Trash</title>
+          <short>Trash Short Text</short>
+          <description>Trash Long Text</description>
+        </object>
+        <object key="Nacho">
+          <title>Nachos</title>
+          <short>Montón de Nachos</short>
+          <description>Disfruta de unos cuantos nachos para recuperar fuerzas</description>
+        </object>
+        <object key="CocaCola">
+          <title>CocaCola</title>
+          <short>1L de CocaCola</short>
+          <description>Compra 1 litro de CocaCola para refrescarte</description>
+        </object>
+        <object key="BateBeisbol">
+          <title>Bate de Beisbol</title>
+          <short>Bate metalico</short>
+          <description>Bate metalico dispuesto a quitar del medio a los que se crucen</description>
+        </object>   
+        <object key="NachoE">
+          <title>Nachos</title>
+          <short>Some Nachos</short>
+          <description>Enjoy some nachos taking these autentical mexican nachos</description>
+        </object>
+        <object key="CocaColaE">
+          <title>Coke</title>
+          <short>1L of Coke</short>
+          <description>Buy 1L of coke to make your day cooler</description>
+        </object>
+        <object key="BateBeisbolE">
+          <title>Baseball bat</title>
+          <short>Metallic baseball bat</short>
+          <description>Metallic baseball bat to show them how its done</description>
+        </object>
+        <object key="Llave">
+          <title>Llave</title>
+          <short>Llave de combate</short>
+          <description>La llave definitiva para ir al combate</description>
+        </object>
+        <object key="Ramen">
+          <title>Ramen</title>
+          <short>Paquete de ramen</short>
+          <description>Ramen para poder comer en cualquier lugar de forma rápida y eficaz. Consultar forma de cocinar en el dorso del producto</description>
+        </object>
+        <object key="BotellaAgua">
+          <title>Botella de agua</title>
+          <short>Botella de agua</short>
+          <description>1.5 L de agua embotellada</description>
+        </object>
+        <object key="Aquarius">
+          <title>Aquarius</title>
+          <short>Bebida Energetica</short>
+          <description>Botella de bebida energetica para recuperar azúcares tras realizar ejercicio con su sabor dulce de mango</description>
+        </object>
+        <object key="RamenChino">
+          <title>Ramen</title>
+          <short>Ramen de pollo picante</short>
+          <description>200g de ramen con trocitos de pollo y salsa extra picante. Solo para verdaderos expertos del picante. Consultar forma de cocinar en el dorso del producto</description>
+        </object>          
+      </objects>
+    </language>
+  </languages>
+</neonBlood>

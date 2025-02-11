@@ -1,0 +1,14 @@
+{
+    "buildSubtarget": 1,
+    "deploymentMethod": 2,
+    "deploymentDrive": 0,
+    "scid": "00000000-0000-0000-0000-0000628665a8",
+    "packageEncryption": 1,
+    "localizationPathOverride": "Assets/Localization/GameCoreXboxSeries",
+    "resourcePriPathOverride": "Assets/Localization/GameCoreXboxSeries",
+    "m_CopyImageMode": 0,
+    "xboxSeriesSResolutionWidth": 1920,
+    "xboxSeriesSResolutionHeight": 1080,
+    "xboxSeriesXResolutionWidth": 2560,
+    "xboxSeriesXResolutionHeight": 1440
+}

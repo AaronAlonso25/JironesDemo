@@ -1,0 +1,1624 @@
+fileFormatVersion: 2
+guid: 90938b60715fe3b46836496fd2e59c44
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: GameCoreXboxOne
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS5
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: GameCoreScarlett
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 928
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8157897, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8608b324d51e2814794655e67b52e778
+      internalID: 487233785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 928
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.86079025, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69035e03a3fb63c47a8134977bccdd7f
+      internalID: -1183094432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 928
+        width: 36
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8888893, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d50aa93b40c040bb7ecbe7d79ebb3
+      internalID: -1158569329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 928
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.86486566, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6003449aa10a7d4b93d128993367ce6
+      internalID: 781675182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_4
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 928
+        width: 38
+        height: 72
+      alignment: 9
+      pivot: {x: 0.84210604, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfb186fac2af014ab1190682364017f
+      internalID: -1733053836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_5
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 928
+        width: 36
+        height: 72
+      alignment: 9
+      pivot: {x: 0.88888973, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab56fd137b0ac1b4fac384f0b45b9834
+      internalID: 781399069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_6
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 928
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.88889056, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35e0603b1bc1ae4d858a34b50949610
+      internalID: 1493321985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_7
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 928
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.84158164, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c837a90bc7698824c8a3692fedc6b560
+      internalID: 1999311778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 828
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8157897, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a02fb57523780f42bb4684212d68540
+      internalID: 63754747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 828
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8611115, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9528b7f384ae743907ecc0bcad553c
+      internalID: -707042150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 828
+        width: 36
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8888893, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c6d1a8a836eb342a63f4bc04ad0e66
+      internalID: 2012930617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 828
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8643246, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62b0853606fd704d8e230751685003c
+      internalID: 59179165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_12
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 828
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.84158003, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884a4077a55c23c41969518d41feee5b
+      internalID: 1676965451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 828
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.88914406, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8503ec43d49501408e8cf84cb616b1d
+      internalID: 467910929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 828
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.88889056, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ac79a867e9c3540a7f590911fe3b3f
+      internalID: 715339794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_15
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 828
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.84158003, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d553469e20821cc41a81beccba07284d
+      internalID: 1581945069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 662
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8157897, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fe14767d7e7fa4888f660ad6da942f
+      internalID: 502041298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 662
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8605559, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f4f0ff622c24542bbbb15d7a88566a
+      internalID: -1846757275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 662
+        width: 36
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8888893, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad1c024db8618845887254780ad0e09
+      internalID: 934937422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 662
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8648653, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdaa9e6f13d6774982eb2cdf1312111
+      internalID: -1592167286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 662
+        width: 38
+        height: 72
+      alignment: 9
+      pivot: {x: 0.84157926, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635865934722dce4f86f765b53a6b309
+      internalID: 1054286044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 662
+        width: 36
+        height: 72
+      alignment: 9
+      pivot: {x: 0.88888973, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b893f7eda947e6d4e800ddba66d733e5
+      internalID: -1649859211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_22
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 662
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.88888973, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3124e76a2beac64c95d5594d0bd97fb
+      internalID: 958974477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_23
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 662
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.84158003, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90477007f2f01284db07458f7582d8cc
+      internalID: -9461964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 562
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8157897, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2919dbd719ca74dbfacc005ccefc11
+      internalID: 1221603638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 562
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.86111134, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6003f456baa986d4b880d49cedde8117
+      internalID: -993727364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_26
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 562
+        width: 36
+        height: 70
+      alignment: 9
+      pivot: {x: 0.88910127, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cd7feadef4b8842a70bb7d1cedd475
+      internalID: -806022736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 562
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8648653, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3777b95c32567e45961efcafeae3c1d
+      internalID: -877542619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 559
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.84210604, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db9104ca5843db428e96e34838bd269
+      internalID: -1622080879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 562
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.88889056, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a9282b89b76d647943207eba621b82
+      internalID: -1953815912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_30
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 562
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.88823617, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e89890c473e614e84afc9e4df834c2
+      internalID: 1527973195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 562
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.86432546, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2972d0196c1387b4d95a33373cf62663
+      internalID: -515041810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 462
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.86111134, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cabb135d28454e428174081ba5cb3d9
+      internalID: 1705066572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_33
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 462
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.86111134, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e96d340a0d95b4eb4e9a03abfa58a5
+      internalID: -258500743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_34
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 462
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8648653, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f920253224f0afb43bb359595d9a210f
+      internalID: 1503272963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 462
+        width: 36
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8883345, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84914e17f3fc81342afff79724a720ce
+      internalID: 685033527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_36
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 462
+        width: 35
+        height: 71
+      alignment: 9
+      pivot: {x: 0.9137146, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5508197b22110549aaaf3408065956f
+      internalID: -1478187864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_37
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 462
+        width: 34
+        height: 71
+      alignment: 9
+      pivot: {x: 0.9417653, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8038c0be958bcc041ba6d292d04d6d06
+      internalID: 1276555729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_38
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 462
+        width: 35
+        height: 71
+      alignment: 9
+      pivot: {x: 0.9142866, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac0c478a6061af419c4b52733f2a7ad
+      internalID: -488687157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_39
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 462
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.86486566, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4260ed652c9e8464dac064fd0ffa40f0
+      internalID: -875311001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 297
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8168423, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3652cad55b5b644e88e4e26733f7c06
+      internalID: -715853161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_41
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 297
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8633338, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549034faac4a87a488df87ee846f1674
+      internalID: -354397357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_42
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 297
+        width: 34
+        height: 71
+      alignment: 9
+      pivot: {x: 0.9117665, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43a25b9da94135459c25886644cb9de
+      internalID: -2109512987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 297
+        width: 54
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8148154, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d72e3f26fd3b8a4f960bbf60f7ec218
+      internalID: 150878558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_44
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 297
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.85185295, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b6c02014cc17f42acd2f6174bcbf3a
+      internalID: -812566901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_45
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 297
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.85185295, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fae1058aedb9e842a9c004057d2df59
+      internalID: 1773670872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_46
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 297
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.85185295, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e85d87f9356fe0469c1359d18a4c7ad
+      internalID: -1820833966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_47
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 298
+        width: 54
+        height: 70
+      alignment: 9
+      pivot: {x: 0.85185295, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179cddbaf871ecc49ac0316a24d1cbe8
+      internalID: 1588439685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_48
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 197
+        width: 70
+        height: 70
+      alignment: 9
+      pivot: {x: 0.88600004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577e8d2614a524f4da695075f38dc019
+      internalID: -1196404602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_49
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 197
+        width: 109
+        height: 70
+      alignment: 9
+      pivot: {x: 0.85321116, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b09ab73cf31504cb0a0452725f66dd
+      internalID: -1268832004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_50
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 197
+        width: 116
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8534488, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f811bd7f4c885bb4f8074f3b9fac42a7
+      internalID: 893803709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_51
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 197
+        width: 105
+        height: 72
+      alignment: 9
+      pivot: {x: 0.9047622, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d698a89e43be441872520e4e7767cc
+      internalID: -1953799699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 197
+        width: 109
+        height: 71
+      alignment: 9
+      pivot: {x: 0.9082574, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bbc007cbc5d36408eb31209d0b8eb3
+      internalID: -482797049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_53
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 197
+        width: 34
+        height: 71
+      alignment: 9
+      pivot: {x: 0.9117665, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79cedf257a89fd4498b74717ce1602d
+      internalID: -75457276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_54
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 197
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8601634, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0879b4a242dfa3743bdbfa273ceb585f
+      internalID: 994795512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_55
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 198
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8648665, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7dbe331d40a474eae380496b60e83b
+      internalID: 1263346701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_56
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 51
+        width: 37
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8372976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fdc5602e260ab43848e30b226baf26
+      internalID: 2114815934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_57
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 51
+        width: 71
+        height: 70
+      alignment: 9
+      pivot: {x: 0.76067555, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cec3d6572fdfd41b99b67759e4b506
+      internalID: 1532165347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_58
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 51
+        width: 73
+        height: 69
+      alignment: 9
+      pivot: {x: 0.7672495, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176406e60465db7419bb9b090f0269d7
+      internalID: -241017256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_59
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 51
+        width: 78
+        height: 70
+      alignment: 9
+      pivot: {x: 0.7565824, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1d6291bab1bd04ebdea8405f542ed3
+      internalID: -883227963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_60
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 51
+        width: 77
+        height: 71
+      alignment: 9
+      pivot: {x: 0.77910304, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f18aa4bc48ebd4448ab6f30755b1bea
+      internalID: -1624961590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 56
+        width: 83
+        height: 46
+      alignment: 9
+      pivot: {x: 0.77080125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261969e73ddc544488a24e80bf80da9c
+      internalID: -1079252478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_62
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 59
+        width: 83
+        height: 44
+      alignment: 9
+      pivot: {x: 0.7950594, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3777d4928f6634e8dc1abaa9873620
+      internalID: 1028478207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_63
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 59
+        width: 69
+        height: 40
+      alignment: 9
+      pivot: {x: 0.9270975, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099795e383bba3b4eadf3c6b13260ca6
+      internalID: 163650463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CABEZABUQUE SS_64
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 61
+        width: 67
+        height: 40
+      alignment: 9
+      pivot: {x: 0.9638818, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d874c7cc45ff54741a0d342dd20bee81
+      internalID: 1426072245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 77abac91ca62b5747813da76bfc5725d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CABEZABUQUE SS_0: 487233785
+      CABEZABUQUE SS_1: -1183094432
+      CABEZABUQUE SS_10: 2012930617
+      CABEZABUQUE SS_11: 59179165
+      CABEZABUQUE SS_12: 1676965451
+      CABEZABUQUE SS_13: 467910929
+      CABEZABUQUE SS_14: 715339794
+      CABEZABUQUE SS_15: 1581945069
+      CABEZABUQUE SS_16: 502041298
+      CABEZABUQUE SS_17: -1846757275
+      CABEZABUQUE SS_18: 934937422
+      CABEZABUQUE SS_19: -1592167286
+      CABEZABUQUE SS_2: -1158569329
+      CABEZABUQUE SS_20: 1054286044
+      CABEZABUQUE SS_21: -1649859211
+      CABEZABUQUE SS_22: 958974477
+      CABEZABUQUE SS_23: -9461964
+      CABEZABUQUE SS_24: 1221603638
+      CABEZABUQUE SS_25: -993727364
+      CABEZABUQUE SS_26: -806022736
+      CABEZABUQUE SS_27: -877542619
+      CABEZABUQUE SS_28: -1622080879
+      CABEZABUQUE SS_29: -1953815912
+      CABEZABUQUE SS_3: 781675182
+      CABEZABUQUE SS_30: 1527973195
+      CABEZABUQUE SS_31: -515041810
+      CABEZABUQUE SS_32: 1705066572
+      CABEZABUQUE SS_33: -258500743
+      CABEZABUQUE SS_34: 1503272963
+      CABEZABUQUE SS_35: 685033527
+      CABEZABUQUE SS_36: -1478187864
+      CABEZABUQUE SS_37: 1276555729
+      CABEZABUQUE SS_38: -488687157
+      CABEZABUQUE SS_39: -875311001
+      CABEZABUQUE SS_4: -1733053836
+      CABEZABUQUE SS_40: -715853161
+      CABEZABUQUE SS_41: -354397357
+      CABEZABUQUE SS_42: -2109512987
+      CABEZABUQUE SS_43: 150878558
+      CABEZABUQUE SS_44: -812566901
+      CABEZABUQUE SS_45: 1773670872
+      CABEZABUQUE SS_46: -1820833966
+      CABEZABUQUE SS_47: 1588439685
+      CABEZABUQUE SS_48: -1196404602
+      CABEZABUQUE SS_49: -1268832004
+      CABEZABUQUE SS_5: 781399069
+      CABEZABUQUE SS_50: 893803709
+      CABEZABUQUE SS_51: -1953799699
+      CABEZABUQUE SS_52: -482797049
+      CABEZABUQUE SS_53: -75457276
+      CABEZABUQUE SS_54: 994795512
+      CABEZABUQUE SS_55: 1263346701
+      CABEZABUQUE SS_56: 2114815934
+      CABEZABUQUE SS_57: 1532165347
+      CABEZABUQUE SS_58: -241017256
+      CABEZABUQUE SS_59: -883227963
+      CABEZABUQUE SS_6: 1493321985
+      CABEZABUQUE SS_60: -1624961590
+      CABEZABUQUE SS_61: -1079252478
+      CABEZABUQUE SS_62: 1028478207
+      CABEZABUQUE SS_63: 163650463
+      CABEZABUQUE SS_64: 1426072245
+      CABEZABUQUE SS_65: -1441188553
+      CABEZABUQUE SS_66: 1976747454
+      CABEZABUQUE SS_67: -947041347
+      CABEZABUQUE SS_68: -1353739025
+      CABEZABUQUE SS_69: -2140548285
+      CABEZABUQUE SS_7: 1999311778
+      CABEZABUQUE SS_70: -1328595044
+      CABEZABUQUE SS_71: -425293439
+      CABEZABUQUE SS_72: 660440332
+      CABEZABUQUE SS_73: -309127841
+      CABEZABUQUE SS_74: 1053247875
+      CABEZABUQUE SS_75: 1212867890
+      CABEZABUQUE SS_8: 63754747
+      CABEZABUQUE SS_9: -707042150
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

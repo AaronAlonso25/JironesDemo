@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neonBlood>
+  <languages>
+    <language>
+      <name>Spanish</name>
+
+      <weapons>
+        <weapon key="LaserGun">
+          <name>RayGun</name>
+          <attack>0,0</attack>
+          <recharge>1</recharge>
+          <uses>-1</uses>
+        </weapon>
+        <weapon key="Peashoter">
+          <name>peashoter</name>
+          <attack>9,9</attack>
+          <recharge>1</recharge>
+          <uses>-1</uses>
+        </weapon>
+        <weapon key="Revolver">
+          <name>8 Balas</name>
+          <attack>1,8</attack>
+          <recharge>1</recharge>
+          <uses>-1</uses>
+        </weapon>
+        <weapon key="LaserRifle">
+          <name>Rifle Láser</name>
+          <attack>1,10</attack>
+          <recharge>1</recharge>
+          <uses>-1</uses>
+        </weapon>
+      </weapons>
+      <specialWeapons>
+        <specialWeapon key="SmokeBomb">
+          <name>Pantalla Humo</name>
+          <attack>0,0</attack>
+          <recharge>3</recharge>
+          <uses>2</uses>
+        </specialWeapon>
+        <specialWeapon key="Stunner">
+          <name>Taaaser</name>
+          <attack>1,4</attack>
+          <recharge>3</recharge>
+          <uses>1</uses>
+        </specialWeapon>
+        <specialWeapon key="Cascos">
+          <name>Cascos</name>
+          <attack>9,9</attack>
+          <recharge>1</recharge>
+          <uses>-1</uses>
+        </specialWeapon>
+        <specialWeapon key="Grenade">
+          <name>Pepo</name>
+          <attack>1,10</attack>
+          <recharge>2</recharge>
+          <uses>1</uses>
+        </specialWeapon>
+        <specialWeapon key="ArmorPiercingBulletGun">
+          <name>Balasera</name>
+          <attack>1,12</attack>
+          <recharge>2</recharge>
+          <uses>6</uses>
+        </specialWeapon>
+        <specialWeapon key="Antielectronics">
+          <name>Antielectrónica</name>
+          <attack>1,20</attack>
+          <recharge>4</recharge>
+          <uses>1</uses>
+        </specialWeapon>
+      </specialWeapons>
+      <abilities>
+        <ability key="Preparation">
+          <name>Animar</name>
+        </ability>
+        <ability key="Initiative">
+          <name>Echarle Ganas</name>
+        </ability>
+        <ability key="Anticipation">
+          <name>Anticipación</name>
+        </ability>
+        <ability key="ProtectiveField">
+          <name>Campo Protector</name>
+        </ability>
+        <ability key="Speed">
+          <name>Velocidad</name>
+        </ability>
+        <ability key="MetabolicAdaptation">
+          <name>Adaptación Metabólica</name>
+        </ability>
+      </abilities>
+
+      <characters>
+        <character key="Axel">
+          <name>Tio Paco</name>
+          <prefab>Axel</prefab>
+          <stats>
+            <health>30</health>
+            <totalHealth>30</totalHealth>
+            <initiative>2</initiative>
+            <evasion>1,6</evasion>
+            <armor>2</armor>
+          </stats>
+          <weapon>Peashoter</weapon>
+          <specialWeapons>
+            <weapon>SmokeBomb</weapon>
+            <weapon>Stunner</weapon>
+            <weapon>Grenade</weapon>
+            <weapon>ArmorPiercingBulletGun</weapon>
+            <weapon>Cascos</weapon>
+            <weapon>Antielectronics</weapon>
+          </specialWeapons>
+          <abilities>
+            <ability>Preparation</ability>
+            <ability>Initiative</ability>
+            <ability>Anticipation</ability>
+            <ability>ProtectiveField</ability>
+            <ability>Speed</ability>
+            <ability>MetabolicAdaptation</ability>
+          </abilities>
+        </character>
+        <character key="Cabezabuque">
+          <name>Cabezabuque</name>
+          <prefab>Cabezabuque</prefab>
+          <stats>
+            <health>20</health>
+            <totalHealth>20</totalHealth>
+            <initiative>1</initiative>
+            <evasion>1,6</evasion>
+            <armor>1</armor>
+          </stats>
+          <weapon>LaserGun</weapon>
+          <specialWeapons>
+          </specialWeapons>
+          <abilities>
+          </abilities>
+        </character>
+        <character key="Testigo">
+          <name>Testigo</name>
+          <prefab>Testigo</prefab>
+          <stats>
+            <health>20</health>
+            <totalHealth>20</totalHealth>
+            <initiative>2</initiative>
+            <evasion>1,6</evasion>
+            <armor>1</armor>
+          </stats>
+          <weapon>Revolver</weapon>
+          <specialWeapons>
+          </specialWeapons>
+          <abilities>
+          </abilities>
+        </character>
+        <character key="Mafioso">
+          <name>Mafioso</name>
+          <prefab>Mafioso</prefab>
+          <stats>
+            <health>20</health>
+            <totalHealth>20</totalHealth>
+            <initiative>3</initiative>
+            <evasion>1,6</evasion>
+            <armor>1</armor>
+          </stats>
+          <weapon>LaserRifle</weapon>
+          <specialWeapons>
+          </specialWeapons>
+          <abilities>
+          </abilities>
+        </character>
+      </characters>
+    </language>
+  </languages>
+</neonBlood>

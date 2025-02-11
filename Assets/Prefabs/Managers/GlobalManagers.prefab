@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3840607367487167302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818913534901348698}
+  - component: {fileID: 7186882969229902049}
+  - component: {fileID: 3739371570352510200}
+  - component: {fileID: 3323189947999708135}
+  m_Layer: 0
+  m_Name: GlobalManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5818913534901348698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840607367487167302}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7186882969229902049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840607367487167302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e58bfb5d09471d44b4f70183c6ea5e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Files:
+  - Language: Spanish
+    File: {fileID: 4900000, guid: bdd4b62d8f215fd498b4774ad34550f0, type: 3}
+  CombatRPGFile: {fileID: 4900000, guid: 0ca631a42d44c3647b359f58aafa1574, type: 3}
+--- !u!114 &3739371570352510200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840607367487167302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772ad42931c332a47b8f72fd6daa76d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SaveDataChapters:
+  - ChapterIndex: 1
+    SaveDataLevels:
+    - NameLevel: Escena 0
+      CurrentCheckPointIndex: 0
+      CurrentPlayerNPCs:
+      - NameNPC: NPC_1
+        StateNPC: 0
+      - NameNPC: NPC_2
+        StateNPC: 0
+      - NameNPC: NPC_3
+        StateNPC: 0
+      - NameNPC: NPC_4
+        StateNPC: 0
+    - NameLevel: JironesCombat
+      CurrentCheckPointIndex: 0
+      CurrentPlayerNPCs:
+      - NameNPC: Combate1
+        StateNPC: 0
+    - NameLevel: PlaygroundRPGCombat
+      CurrentCheckPointIndex: 0
+      CurrentPlayerNPCs: []
+  CurrentChapter: 1
+  CurrentLevel: 
+  CurrentLevelDoor: 
+  CurrentLanguage: en-US
+  CharactersCoins: 0
+  CharactersEvents: []
+  CharactersItems: []
+  CharactersItemsTemplates:
+  - {fileID: 11400000, guid: 8b61558e80dbb0b46a6b5a6b02bdd596, type: 2}
+  MainCharactersDiary:
+  - Axel
+  SecondaryCharactersDiary:
+  - Varya
+  CurrentQuests:
+  - PlaygroundScene_0
+  CompletedQuests:
+  - PlaygroundScene_1
+  AvailablePlaces:
+  - Escena 0
+  - JironesCombat
+  - PlaygroundRPGCombat
+  CombatPosition: {x: 0, y: 0, z: 0}
+  CombatName: 
+  CombatScene: 
+  CombatResult: 0
+  CombatVictoryCheckPointCommands: []
+  CombatVictoryNPCCommands: []
+  CombatRPGTeamAxel:
+  - Axel
+  CombatRPGTeamEnemy:
+  - Mafioso
+  CanLoadSave: 0
+  IsDemo: 0
+--- !u!114 &3323189947999708135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3840607367487167302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978006b55183c894dbe66a6ec1e3d745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentPlatform: 0
+  CurrentInput: 0

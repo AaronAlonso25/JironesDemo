@@ -1,0 +1,2882 @@
+fileFormatVersion: 2
+guid: 5fb4abbfb98b3884ab2328a2e1cb1d74
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: GameCoreXboxOne
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS5
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: GameCoreScarlett
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Axel Combat v1_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1942
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8788429, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec1bc90b9aa81045adc6bec6b252b4b
+      internalID: -1366407118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1942
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.80525124, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcf17f30d5e6f646ba445f147d517c7
+      internalID: 2083191335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_3
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1942
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.7631595, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e202e4b0924441a9c733af1dbe6ca
+      internalID: -535958485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1942
+        width: 35
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8285749, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6feb1b268ddfd4a85538dc04fbfa66
+      internalID: -2121685745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_6
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1942
+        width: 34
+        height: 69
+      alignment: 9
+      pivot: {x: 0.8529448, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50edaf16cf533046a10d3b18c2e73cb
+      internalID: -373245006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_7
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1942
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.87879527, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3826aaf8fd78af54b90a7c1f540263ad
+      internalID: -483715358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1839
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.87878835, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1365e49c3ca927e44b83ca8e6e4a7019
+      internalID: 658817420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1839
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.8787888, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62812cf6fe63d984484def1fa783d8a4
+      internalID: -989887857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1839
+        width: 32
+        height: 69
+      alignment: 9
+      pivot: {x: 0.9062519, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8dd5c8299bf5c47ac97e2c2f92659e
+      internalID: 734630022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_11
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1839
+        width: 32
+        height: 69
+      alignment: 9
+      pivot: {x: 0.9062538, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccff07a4b8ef71409071a0e8a048be5
+      internalID: -616207279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_12
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1839
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8787934, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4eaa20c3c3fbe843bcdccd9c8aa17ae
+      internalID: -419472293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_13
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1839
+        width: 35
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8288539, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f8981fe5df134699b76417bc1419f
+      internalID: -1139279017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_14
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1839
+        width: 36
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8053657, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b4796204b6ed346b5c4a3c352a673b
+      internalID: -1506443462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_15
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1839
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0.763492, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e50a3dbc00655945b183e57f77c0185
+      internalID: -1452880042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1736
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 0.7846026, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17f1f606f131a2438fba2e887b99237
+      internalID: 885445395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1736
+        width: 35
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8285723, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb9a6fc825939f45b45121b21cbb3b4
+      internalID: 191703034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1736
+        width: 34
+        height: 69
+      alignment: 9
+      pivot: {x: 0.8535309, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f86c9ca2275394e929e33d16a55846
+      internalID: 1476827624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_19
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1736
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.8793964, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d849ad999cb62d438a15ee819cc1de7
+      internalID: 1056014130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_20
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1736
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.87783164, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30981ab447bf7d142bccef96ec958ae0
+      internalID: -1450389873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_21
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1736
+        width: 33
+        height: 69
+      alignment: 9
+      pivot: {x: 0.8787916, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c63b33cfa6f6be438ad5d90c026cd6c
+      internalID: -406762196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_23
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1736
+        width: 32
+        height: 69
+      alignment: 9
+      pivot: {x: 0.9062538, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96d1d2126ae297448073d87a614e47a
+      internalID: 280995982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_24
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1600
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8782795, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfd9d6044f9125409b432a0b94b29ea
+      internalID: -1977575902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1600
+        width: 35
+        height: 74
+      alignment: 9
+      pivot: {x: 0.74228865, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aeb6fe7e4930746a7bc384b34163d4
+      internalID: 1406476949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_26
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1600
+        width: 34
+        height: 76
+      alignment: 9
+      pivot: {x: 0.9111777, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897d8c107be51764a938fb83eee55a33
+      internalID: 1168458347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_27
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1600
+        width: 43
+        height: 74
+      alignment: 9
+      pivot: {x: 0.88372236, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165c5e248b1e7c14bb2e342258eaa4b4
+      internalID: 910500455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_28
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1600
+        width: 48
+        height: 60
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b48bdc780a43c438a98100fa05968b
+      internalID: 324396113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_29
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1600
+        width: 48
+        height: 59
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54878efc203ed784db7a8314c5d46f77
+      internalID: -1142078962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_30
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1600
+        width: 48
+        height: 60
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08b53aba181cea4cb93cb4301f3237e
+      internalID: -1678088715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_31
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1600
+        width: 48
+        height: 61
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f074bb2f9b174b8b0c997aac20c79
+      internalID: -322483754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1497
+        width: 48
+        height: 58
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d9407a9718ff64bb730730a8bb3c4b
+      internalID: -215752511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1497
+        width: 79
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b05a39f4881eee40b4ce1bdbc7a31e9
+      internalID: -1608748838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1497
+        width: 141
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab31f1087dc1cbb4387e74d2bd1843a3
+      internalID: 1149627681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_38
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1497
+        width: 158
+        height: 64
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b80a0f823b89d40ae9e1d7ad064562
+      internalID: -1267861393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_39
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1497
+        width: 76
+        height: 67
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1fe7f23eaacd647910879a5a769a68
+      internalID: 1552118542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_40
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1497
+        width: 32
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8118782, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ea0bf4f21d8b489cf8b05baea7f5f
+      internalID: -1627372684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_41
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1497
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8781849, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d199b2c939782b740a96a3cfdaa069fa
+      internalID: 1109225847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_42
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1349
+        width: 33
+        height: 70
+      alignment: 9
+      pivot: {x: 0.8781824, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8253fca687727d469cbe095fc531720
+      internalID: 1123577569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_43
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1349
+        width: 40
+        height: 65
+      alignment: 9
+      pivot: {x: 0.7500008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b633848dd02224b9a0425596e94885
+      internalID: 106398911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_44
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1349
+        width: 39
+        height: 60
+      alignment: 9
+      pivot: {x: 0.92256516, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0066fb2d278ac024fa3f4b853bfacabb
+      internalID: 1775823378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_45
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1349
+        width: 36
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c066213a90f4dbe4a8cdfa58e9a1b807
+      internalID: -1666747199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_46
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1349
+        width: 44
+        height: 56
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2720140ec4980724c89c77c18948e664
+      internalID: -665395774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_47
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1349
+        width: 42
+        height: 59
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56258ef83675b084285bfcaab0045775
+      internalID: -871082893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1942
+        width: 35
+        height: 71
+      alignment: 9
+      pivot: {x: 0.82798547, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827c1305145d5874486d69ed50b1e691
+      internalID: 338666241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1942
+        width: 37
+        height: 70
+      alignment: 9
+      pivot: {x: 0.78378546, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439b2f951563af248bfaef74d91885b9
+      internalID: 289927457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_22
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1736
+        width: 32
+        height: 69
+      alignment: 9
+      pivot: {x: 0.9062538, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736de11d26518b148ae056fdb2e0a461
+      internalID: 1436627894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_49
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1349
+        width: 49
+        height: 58
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f456eaa75fec9549959b500a936990f
+      internalID: 1324934885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_51
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1349
+        width: 44
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8e96fa640a0254dad8c7c463df40c5
+      internalID: -1109062804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_52
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1246
+        width: 43
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca639317f537104bb6e5f5c8b8cb483
+      internalID: 956403732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_53
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1246
+        width: 44
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3e24dd29906cc419c17f4dc823e7cb
+      internalID: 1285066906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_54
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1246
+        width: 44
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f21027208c024d984ff9ab307fb20
+      internalID: -1413818724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_55
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1246
+        width: 44
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12a7800fe3059545847dc9a4dd5c6cc
+      internalID: -1765660091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_56
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1246
+        width: 50
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f4fb1cfbd83454bb42be7513b63a8c
+      internalID: -824368537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_57
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1246
+        width: 36
+        height: 65
+      alignment: 9
+      pivot: {x: 0.8328654, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c24ce3b4c435c4cadd4ad1732d7b7e
+      internalID: -1660445430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_58
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1246
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.8781849, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0286fc2e80e1505489c21e2bf603ef8f
+      internalID: -1657002862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_59
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1120
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.95120275, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab108965e35cea643bc8fdbd8db492ce
+      internalID: 968108756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_60
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1120
+        width: 42
+        height: 66
+      alignment: 9
+      pivot: {x: 0.8804772, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b6acc07dcd18c46bade7e519a46beb
+      internalID: 490532413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_61
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1120
+        width: 37
+        height: 60
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c66fa9bea2376d41a9559438f017f39
+      internalID: 1283854750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_62
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1120
+        width: 36
+        height: 61
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53e71ab18f9bb449bca96774b3b458d
+      internalID: 1508931230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_63
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1120
+        width: 40
+        height: 46
+      alignment: 9
+      pivot: {x: 0.89945376, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b151894e529396499ce321b7e010c37
+      internalID: 266653233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_64
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1120
+        width: 42
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8571458, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe02bc54907fadd42942e12d26ee3969
+      internalID: -608381354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_65
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1120
+        width: 42
+        height: 43
+      alignment: 9
+      pivot: {x: 0.8571458, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c75b0264889254f8625652bb79c252
+      internalID: 1104314427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_66
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1017
+        width: 49
+        height: 43
+      alignment: 9
+      pivot: {x: 0.73428607, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60756d8f08542a458e597d7088e822d
+      internalID: 1555098895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_67
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1017
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7201489, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eedd1f81f5c8c40855b2e1e6886f8e
+      internalID: -1855335757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_69
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1017
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7194812, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8de7a6e6b9bca4391b58604d6de0cc
+      internalID: -939323995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_71
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1017
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7200024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4c54a258e7c55478aa4ef4ef0e08aa
+      internalID: 1433632429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_73
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1017
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 0.71982175, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e214543dbb6b0974aa8d84cd9be4e2b9
+      internalID: -462827271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_75
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1017
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 0.71960205, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ccb9c1e6f1c2d41a57f760f2d1654b
+      internalID: 2028790971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_77
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1017
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7200073, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d748cb4e7f1ef49867a0fc16198a55
+      internalID: -1783159003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_79
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 880
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.87878835, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2481565aab275e24db3ef0128bff6c87
+      internalID: -1774484223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_80
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 880
+        width: 30
+        height: 71
+      alignment: 9
+      pivot: {x: 0.900001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c33e67490f44489b883004bf6f259
+      internalID: -1413418925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_81
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 880
+        width: 26
+        height: 70
+      alignment: 9
+      pivot: {x: 0.9615396, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee67f113ce5669145b058e4e0392cc0a
+      internalID: 1668412139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_82
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 880
+        width: 24
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c116d609d8e3549b4cffcf57b9dd0a
+      internalID: 546581371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_83
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 880
+        width: 22
+        height: 76
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480eedc4a1ecec744a90577fb0daf751
+      internalID: 1523403713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_84
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 880
+        width: 25
+        height: 77
+      alignment: 9
+      pivot: {x: 0.9600049, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea1ee720e4fb46489ca3c7982723055
+      internalID: 2071371108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_85
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 880
+        width: 26
+        height: 71
+      alignment: 9
+      pivot: {x: 0.96154314, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc06c75fe4ac4d42bc629cd26854a6c
+      internalID: -599773788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_86
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 880
+        width: 26
+        height: 71
+      alignment: 9
+      pivot: {x: 0.96154314, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db694dfcb4565c428ed7c8710b51209
+      internalID: 1106954777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_87
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 787
+        width: 53
+        height: 75
+      alignment: 9
+      pivot: {x: 0.6226438, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6b57c6d50a6c748b0add00bdb4ffd8
+      internalID: 1099096467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_88
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 790
+        width: 63
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5237824, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d82f5058be3e34e9d48058aca7e6f0
+      internalID: 620411064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_89
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 792
+        width: 66
+        height: 74
+      alignment: 9
+      pivot: {x: 0.53038996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13e628f17380d743bada691353e709e
+      internalID: -856086964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_91
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 792
+        width: 68
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5292125, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1894a6efcca46438d0b057c0ea923f
+      internalID: -1001549292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_93
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 777
+        width: 26
+        height: 71
+      alignment: 9
+      pivot: {x: 0.96153903, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bff033cc7cd97041955b4d5888121c0
+      internalID: 2012774471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_94
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 779
+        width: 25
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d5d83a24c53de4188d32310c5aeb96
+      internalID: -1543065837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_95
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 782
+        width: 34
+        height: 71
+      alignment: 9
+      pivot: {x: 0.823533, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214f39413e4f8e84bb1eec170da5601d
+      internalID: -110490842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_96
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 788
+        width: 63
+        height: 67
+      alignment: 9
+      pivot: {x: 0.6190515, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8a9b374b5b9274d81141847c83985c
+      internalID: -9908077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_98
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 674
+        width: 55
+        height: 72
+      alignment: 9
+      pivot: {x: 0.6727275, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5d32df579e28d41b170aebcea95401
+      internalID: -1067931114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_99
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 674
+        width: 47
+        height: 65
+      alignment: 9
+      pivot: {x: 0.7663834, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693514cfda9e1ed4483e5396a2500bdf
+      internalID: -2025734947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_100
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 719
+        width: 5
+        height: 7
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addc9afe1033a7242a713789c19cb680
+      internalID: 1311472973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_101
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 674
+        width: 50
+        height: 71
+      alignment: 9
+      pivot: {x: 0.7803247, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a129a702d9da3c4468f1db6d504839c4
+      internalID: -1467041468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_102
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 674
+        width: 52
+        height: 72
+      alignment: 9
+      pivot: {x: 0.80692583, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dfcb899d422094ebaef8cc46b050f5
+      internalID: 1467667974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_103
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 673
+        width: 37
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fdc13d00008504a958a5f0b6225000
+      internalID: -540451545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_104
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 673
+        width: 38
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab946134a6a4504eb91f65f8cbf0cb8
+      internalID: -258083409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_105
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 673
+        width: 40
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3a8f7694a067a43b7bff013f548b01
+      internalID: -1851672786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_106
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 673
+        width: 39
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283cc92289066df47af240a341ccfc08
+      internalID: -1341850355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_107
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 570
+        width: 37
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6838e6610cc373a45ae800673d1e92d2
+      internalID: -1487780956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_108
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 570
+        width: 36
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302d01b6c9ce0d64581381ba3be3a49a
+      internalID: 906692865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_109
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 570
+        width: 35
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2498629a0900dde40b4b5dac7a96e524
+      internalID: -1343448339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_110
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 570
+        width: 35
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fa64f37baf6b643928e4c929e17005
+      internalID: 1627781508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_111
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 570
+        width: 35
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ef82d263105e4cbfe696950f32f11
+      internalID: 1010818695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_112
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 570
+        width: 34
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dee736a7c01c4f4b9bea202b03d0dbb
+      internalID: 825068129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_113
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 570
+        width: 34
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42166441533f49b49aed12a58d0ceb7d
+      internalID: 1481404076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_114
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 570
+        width: 35
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c4f6a68e3e4ba48b082b332903217c
+      internalID: 1278160575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 467
+        width: 37
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e308642708e4f244fa575c587b00fb4b
+      internalID: -1327798790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_116
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 467
+        width: 38
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1986b7d54242c0d45a196180255c69c4
+      internalID: 2004569298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_117
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 467
+        width: 40
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35aac0fdbdf01c4ca4fb9578ad8afa4
+      internalID: 1447384752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_118
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 467
+        width: 39
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d413b6afcbb0db44aa4b1d03b204b4cf
+      internalID: -73549292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_119
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 467
+        width: 37
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ffeab792c9e864db390d210514c3a9
+      internalID: 1420373223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_120
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 467
+        width: 36
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b25dcb4dbb7e0648bdda75ad140201b
+      internalID: 1838805848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_121
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 467
+        width: 35
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1bedf9bd48eef4c98776975835047c
+      internalID: -2101706963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_122
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 467
+        width: 35
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4a368ee37be6543b4fee5dec2f335b
+      internalID: -1625840842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 364
+        width: 35
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace40609abc6d9e418f8c3703183b7b7
+      internalID: -1538992426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_124
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 364
+        width: 34
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef306cc1c9af9654bb1bc99b620ea041
+      internalID: 1285892691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_125
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 364
+        width: 34
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a74e2e5b31a874a9f6d0a66f611d30
+      internalID: 1435940947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_126
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 216
+        width: 33
+        height: 71
+      alignment: 9
+      pivot: {x: 0.87878835, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52448bab1fbf5684ba652fbbbee42f5a
+      internalID: 1566390996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_127
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 216
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.9512203, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2208465ade29a2c4ab4a4987950119b5
+      internalID: 589766084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_128
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 216
+        width: 42
+        height: 66
+      alignment: 9
+      pivot: {x: 0.8804772, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c12654059ff5f34d8bfbc2b63a1b4da
+      internalID: -1322563684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_129
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 216
+        width: 37
+        height: 60
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030c890459aa7704e8d520b37caa869e
+      internalID: -1985347676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_130
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 216
+        width: 36
+        height: 61
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5b1ce66b1d8014fb2e9e451ba5b077
+      internalID: 433344136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_131
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 216
+        width: 39
+        height: 61
+      alignment: 9
+      pivot: {x: 0.9225667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ab49f3df90b8b419985c238288ca92
+      internalID: -781700206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_132
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 216
+        width: 39
+        height: 60
+      alignment: 9
+      pivot: {x: 0.9225667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31a3fe1cf89f084aa006364b3c0d08c
+      internalID: -621300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_133
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 216
+        width: 38
+        height: 61
+      alignment: 9
+      pivot: {x: 0.92105585, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cff60031f0aea647b07eca8330c539e
+      internalID: 1892810828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_134
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 113
+        width: 36
+        height: 65
+      alignment: 9
+      pivot: {x: 0.83333373, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169117e20e6f5f444a4066cf0b3f8913
+      internalID: 851475609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Axel Combat v1_135
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 113
+        width: 28
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd844ef6aa9c4b64dbfea0e0659db82b
+      internalID: -874623724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b171d9e4c8e6ce24fb3c708f9ccd3170
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Axel Combat v1_0: -1366407118
+      Axel Combat v1_1: 338666241
+      Axel Combat v1_10: 734630022
+      Axel Combat v1_100: 1311472973
+      Axel Combat v1_101: -1467041468
+      Axel Combat v1_102: 1467667974
+      Axel Combat v1_103: -540451545
+      Axel Combat v1_104: -258083409
+      Axel Combat v1_105: -1851672786
+      Axel Combat v1_106: -1341850355
+      Axel Combat v1_107: -1487780956
+      Axel Combat v1_108: 906692865
+      Axel Combat v1_109: -1343448339
+      Axel Combat v1_11: -616207279
+      Axel Combat v1_110: 1627781508
+      Axel Combat v1_111: 1010818695
+      Axel Combat v1_112: 825068129
+      Axel Combat v1_113: 1481404076
+      Axel Combat v1_114: 1278160575
+      Axel Combat v1_115: -1327798790
+      Axel Combat v1_116: 2004569298
+      Axel Combat v1_117: 1447384752
+      Axel Combat v1_118: -73549292
+      Axel Combat v1_119: 1420373223
+      Axel Combat v1_12: -419472293
+      Axel Combat v1_120: 1838805848
+      Axel Combat v1_121: -2101706963
+      Axel Combat v1_122: -1625840842
+      Axel Combat v1_123: -1538992426
+      Axel Combat v1_124: 1285892691
+      Axel Combat v1_125: 1435940947
+      Axel Combat v1_126: 1566390996
+      Axel Combat v1_127: 589766084
+      Axel Combat v1_128: -1322563684
+      Axel Combat v1_129: -1985347676
+      Axel Combat v1_13: -1139279017
+      Axel Combat v1_130: 433344136
+      Axel Combat v1_131: -781700206
+      Axel Combat v1_132: -621300334
+      Axel Combat v1_133: 1892810828
+      Axel Combat v1_134: 851475609
+      Axel Combat v1_135: -874623724
+      Axel Combat v1_136: 1731881542
+      Axel Combat v1_14: -1506443462
+      Axel Combat v1_15: -1452880042
+      Axel Combat v1_16: 885445395
+      Axel Combat v1_17: 191703034
+      Axel Combat v1_18: 1476827624
+      Axel Combat v1_19: 1056014130
+      Axel Combat v1_2: 2083191335
+      Axel Combat v1_20: -1450389873
+      Axel Combat v1_21: -406762196
+      Axel Combat v1_22: 1436627894
+      Axel Combat v1_23: 280995982
+      Axel Combat v1_24: -1977575902
+      Axel Combat v1_25: 1406476949
+      Axel Combat v1_26: 1168458347
+      Axel Combat v1_27: 910500455
+      Axel Combat v1_28: 324396113
+      Axel Combat v1_29: -1142078962
+      Axel Combat v1_3: -535958485
+      Axel Combat v1_30: -1678088715
+      Axel Combat v1_31: -322483754
+      Axel Combat v1_32: -215752511
+      Axel Combat v1_33: 1569836032
+      Axel Combat v1_34: -1608748838
+      Axel Combat v1_35: -1532448397
+      Axel Combat v1_36: -419062130
+      Axel Combat v1_37: 1149627681
+      Axel Combat v1_38: -1267861393
+      Axel Combat v1_39: 1552118542
+      Axel Combat v1_4: 289927457
+      Axel Combat v1_40: -1627372684
+      Axel Combat v1_41: 1109225847
+      Axel Combat v1_42: 1123577569
+      Axel Combat v1_43: 106398911
+      Axel Combat v1_44: 1775823378
+      Axel Combat v1_45: -1666747199
+      Axel Combat v1_46: -665395774
+      Axel Combat v1_47: -871082893
+      Axel Combat v1_48: -597804476
+      Axel Combat v1_49: 1324934885
+      Axel Combat v1_5: -2121685745
+      Axel Combat v1_50: 2061577478
+      Axel Combat v1_51: -1109062804
+      Axel Combat v1_52: 956403732
+      Axel Combat v1_53: 1285066906
+      Axel Combat v1_54: -1413818724
+      Axel Combat v1_55: -1765660091
+      Axel Combat v1_56: -824368537
+      Axel Combat v1_57: -1660445430
+      Axel Combat v1_58: -1657002862
+      Axel Combat v1_59: 968108756
+      Axel Combat v1_6: -373245006
+      Axel Combat v1_60: 490532413
+      Axel Combat v1_61: 1283854750
+      Axel Combat v1_62: 1508931230
+      Axel Combat v1_63: 266653233
+      Axel Combat v1_64: -608381354
+      Axel Combat v1_65: 1104314427
+      Axel Combat v1_66: 1555098895
+      Axel Combat v1_67: -1855335757
+      Axel Combat v1_68: 34796778
+      Axel Combat v1_69: -939323995
+      Axel Combat v1_7: -483715358
+      Axel Combat v1_70: -551572869
+      Axel Combat v1_71: 1433632429
+      Axel Combat v1_72: -1901511
+      Axel Combat v1_73: -462827271
+      Axel Combat v1_74: -1098781194
+      Axel Combat v1_75: 2028790971
+      Axel Combat v1_76: -615797029
+      Axel Combat v1_77: -1783159003
+      Axel Combat v1_78: 909272877
+      Axel Combat v1_79: -1774484223
+      Axel Combat v1_8: 658817420
+      Axel Combat v1_80: -1413418925
+      Axel Combat v1_81: 1668412139
+      Axel Combat v1_82: 546581371
+      Axel Combat v1_83: 1523403713
+      Axel Combat v1_84: 2071371108
+      Axel Combat v1_85: -599773788
+      Axel Combat v1_86: 1106954777
+      Axel Combat v1_87: 1099096467
+      Axel Combat v1_88: 620411064
+      Axel Combat v1_89: -856086964
+      Axel Combat v1_9: -989887857
+      Axel Combat v1_90: 171862622
+      Axel Combat v1_91: -1001549292
+      Axel Combat v1_92: -536341804
+      Axel Combat v1_93: 2012774471
+      Axel Combat v1_94: -1543065837
+      Axel Combat v1_95: -110490842
+      Axel Combat v1_96: -9908077
+      Axel Combat v1_97: 335638916
+      Axel Combat v1_98: -1067931114
+      Axel Combat v1_99: -2025734947
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,524 @@
+title: Dialogue_0
+position: -105,-176
+---
+Alice: Hey Bob.
+Bob: Hey Alice.
+Alice: This is an example of using Yarn Spinner for a 3D RPG type game with NPCs.
+Alice: Like in A Short Hike! Have you played that game, Bob?
+Bob: ...
+
+
+
+<<fade 2>>
+<<wait 2>>
+
+Bob: Alice???.
+Alice: WHAT???
+Bob: Are you OK? Who are you talking to?
+
+-> ... the Unity user.
+    Alice: I'm talking to the Unity user.
+    Bob: What the heck is a Unity user?
+-> ... no one.
+    Alice: I'm talking to... no one.
+
+Alice: (wink)
+Bob: Why did you say "wink" up at the sky?
+Alice: (winks again)
+
+===
+title: Dialogue_1
+position: 138,-175
+---
+
+Alice: Bob, are you OK?
+Bob: I feel so dizzy. I think I have to get off soon...
+Alice: No, you have to keep spinning!
+Alice: You're a great example of 3D speech bubbles following moving characters.
+
+===
+
+title: Dialogue_2
+position: 138,-175
+---
+
+Alice: Hey, excuse me do you know what time is it?
+Bob: No idea my friend, why?
+Alice: Can you check it on your phone for me?
+Bob: Yeah sure! 
+Alice: Great thanks
+Bob: It's five o'clock
+Alice: Oh great the perfect time to rob you, give me all the things you have. And dont try to be a hero
+Bob: WHAT?! No way bro this is my forth time this month I get rob by some drug addict like you.
+
+-> Give him everything.
+   Alice: Yeah that what I thought you were going to do. C'mon dont waste our time and empty your pockets fast.
+   Bob: Shut up man I'm going as fast as I can but this shitty jacket has a lot of pockets it's hard to empty them.
+   Alice: Yeah yeah whatever you say, shut up and keep emptying them.
+   Bob: Oh yeah by the way you wanna know what's inside them...  THIS! (shows him his gun and shots him)
+
+   <<fade 2>>
+-> Run.
+   Alice: What are you doing you literally said "run" in the air, are you dumb?!
+   Bob: Wait, you can see that?!
+   Alice: Of course I can see that everyone can see that man.
+   Bob: Oh man that's sad, by the way do you know, by any chance, how to do it so the other one can't see that?
+   Alice: Yeah man you only have to put this "()" between the action you want to do.
+   Bob:(Runs away)
+   Alice: Oh man that's the ninth time this week.
+   << fade 2 >>
+-> (Shot him)
+   <<fade 2>>
+
+===
+
+title: Dialogue_3
+position: -105,-176
+
+---
+
+Alice: Hello this is a test for our game
+Bob: ... okay?
+Alice: Yeah this is only a test. Why dont you try to choose an option.
+Bob: Mmm okay?
+
+-> Talk about the game
+    Bob: Tell me about your game
+    Alice: Okay. We are making an exe to show what we can do.
+    Alice: Our game is an RPG about an story based on the old China.
+    Bob: Oh, okay can you be more specific?
+    Alice: Sadly I cant right now this is only a test.
+    << fade 2 >> 
+-> Talk about the team
+    Bob: Tell me about your team.
+    Alice: Okay. We are all students from the same class in different groups and projects.
+    Alice: In this project we are 10 students doing some task that our tutors asign to us.
+    Bob: That's cool I always wanted to make a game.
+    << fade 2 >>
+->Talk about the weather
+    Bob: Tell me about the weather.
+    Alice: Umm, the weather? I dont know that right now. Hope its not raining but I cant tell the exact weather.
+    Bob: .... I was talking about the weather in the game.
+    Alice: Ohhh, we dont know that yet.
+    Bob: Okay.
+    << fade 2 >>
+
+===
+
+title: Dialogue_4
+position: 138,-175
+---
+
+Alice: Hey Bob.
+Bob:...3
+Alice: Bob?
+Bob:...2
+Alice: Booooooob?
+Bob:...1
+Alice: Well...
+Bob: What do you want?
+Alice: Hello, why were you just looking at me and not saying a thing?
+Bob:...3
+Alice:...
+Alice: Stupid robot
+
+<< fade 2 >>
+
+===
+
+title: Dialogue_5
+position: 138,-175
+---
+
+Alice: Hellooooo.
+Bob: Hello.
+Alice: C'mon man enjoy, these guys are making the dialogues.
+Bob: Really?
+Alice: Yeah, what do you want to say?
+
+-> I'm Mike and my favorite color is green
+    Bob: I'm Mike and my favorite color is green.
+    Bob: Whaat?! But that's not my name.
+    Alice: I know but that's what the user selected so know you are Mike.
+    Bob: Wow thats crazy
+    
+-> I'm Bob and I like to play football in the park
+    Bob: I'm Bob and I like to play football in the park.
+    Bob: Wow...
+    Alice: Yeah whatever they select its what you are going to say.
+    Bob: I see, Im going to try again. Can I right?
+    Alice: Yeah of course you can.
+
+    -> You are Alice and you are my friend
+       Bob: You are Alice and you are my friend.
+       Alice: See, that craaaazy, thank you by the way.
+       Bob: Yeah thats cool and no problem.
+       << fade 2 >>
+    -> You are Alice and you are not my friend
+       Bob: You are Alice and you are not my friend.
+       Alice: WHAT?! why did you said that?
+       Bob: I didnt it was him.
+       Alice: Oh yeah that's true, sorry. We friends right?
+       Bob:...
+       Alice:...
+       << fade 2 >>
+
+===
+title: Dialogue_0E
+position: -105,-176
+---
+Alice: Hola Bob.
+Bob: Hola Alice.
+Alice: Este es un ejemplo de cómo usar Yarn Spinner para un juego de rol en 3D con NPCs.
+Alice: ¡Como en A Short Hike! ¿Has jugado a ese juego, Bob?
+Bob: ...
+
+<<fade 2>>
+<<wait 2>>
+
+Bob: ¿Alice???
+Alice: ¿QUÉ???
+Bob: ¿Estás bien? ¿Con quién estás hablando?
+
+-> ... con el usuario de Unity.
+    Alice: Estoy hablando con el usuario de Unity.
+    Bob: ¿Qué diablos es un usuario de Unity?
+-> ... con nadie.
+    Alice: Estoy hablando con... nadie.
+
+Alice: (guiño)
+Bob: ¿Por qué dijiste "guiño" mirando al cielo?
+Alice: (vuelve a guiñar)
+
+===
+
+title: Dialogue_1E
+position: 138,-175
+---
+
+Alice: Bob, ¿estás bien?
+Bob: Me siento tan mareado. Creo que tengo que bajarme pronto...
+Alice: No, ¡tienes que seguir girando!
+Alice: Eres un gran ejemplo de burbujas de diálogo en 3D que siguen a personajes en movimiento.
+
+===
+
+title: Dialogue_2E
+position: 138,-175
+---
+
+Alice: Hola, disculpa, ¿sabes qué hora es?
+Bob: No tengo idea, amigo, ¿por qué?
+Alice: ¿Puedes revisarlo en tu teléfono por mí?
+Bob: Sí, claro.
+Alice: Genial, gracias.
+Bob: Son las cinco en punto.
+Alice: Oh, perfecto, la hora ideal para robarte. Dame todo lo que tienes. Y no intentes ser un héroe.
+Bob: ¿¡QUÉ?! Ni de broma, hermano, esta es la cuarta vez este mes que me roban drogadictos como tú.
+
+-> Dale todo.
+   Alice: Sí, eso pensé que ibas a hacer. Vamos, no perdamos tiempo y vacía tus bolsillos rápido.
+   Bob: Cállate, hombre, lo estoy haciendo lo más rápido que puedo, pero esta chaqueta de mierda tiene demasiados bolsillos y es difícil vaciarlos.
+   Alice: Sí, sí, lo que digas, cállate y sigue vaciándolos.
+   Bob: Oh, sí, por cierto, ¿quieres saber qué hay dentro...? ¡ESTO! (le muestra su arma y le dispara).
+
+   <<fade 2>>
+-> Correr.
+   Alice: ¿Qué estás haciendo? Literalmente dijiste "correr" en el aire, ¿eres tonto?
+   Bob: Espera, ¿puedes ver eso?
+   Alice: Por supuesto que puedo verlo, todo el mundo puede verlo, hombre.
+   Bob: Oh, hombre, eso es triste. Por cierto, ¿sabes, por casualidad, cómo hacer para que el otro no pueda verlo?
+   Alice: Sí, hombre, solo tienes que poner esto "()" alrededor de la acción que quieras hacer.
+   Bob:(Corre lejos)
+   Alice: Oh, hombre, esta es la novena vez esta semana.
+   << fade 2 >>
+-> (Dispararle)
+   <<fade 2>>
+
+===
+
+title: Dialogue_3E
+position: -105,-176
+---
+
+Alice: Hola, esta es una prueba para nuestro juego.
+Bob: ... ¿vale?
+Alice: Sí, esto es solo una prueba. ¿Por qué no intentas elegir una opción?
+Bob: Mmm, ¿vale?
+
+-> Hablar sobre el juego.
+    Bob: Cuéntame sobre tu juego.
+    Alice: De acuerdo. Estamos haciendo un ejecutable para mostrar lo que podemos hacer.
+    Alice: Nuestro juego es un RPG sobre una historia basada en la antigua China.
+    Bob: Oh, vale, ¿puedes ser más específica?
+    Alice: Lamentablemente no puedo ahora mismo, esto es solo una prueba.
+    << fade 2 >> 
+-> Hablar sobre el equipo.
+    Bob: Cuéntame sobre tu equipo.
+    Alice: De acuerdo. Todos somos estudiantes de la misma clase en diferentes grupos y proyectos.
+    Alice: En este proyecto somos 10 estudiantes haciendo algunas tareas que nuestros tutores nos asignan.
+    Bob: Eso está genial, siempre quise hacer un juego.
+    << fade 2 >>
+-> Hablar sobre el clima.
+    Bob: Cuéntame sobre el clima.
+    Alice: Umm, ¿el clima? No lo sé ahora mismo. Espero que no esté lloviendo, pero no puedo decir el clima exacto.
+    Bob: ... Estaba hablando del clima en el juego.
+    Alice: Ohhh, todavía no sabemos eso.
+    Bob: Vale.
+    << fade 2 >>
+
+===
+
+title: Dialogue_4E
+position: 138,-175
+---
+
+Alice: Hola Bob.
+Bob:...3
+Alice: ¿Bob?
+Bob:...2
+Alice: ¿Booooooob?
+Bob:...1
+Alice: Bueno...
+Bob: ¿Qué quieres?
+Alice: Hola, ¿por qué solo me mirabas y no decías nada?
+Bob:...3
+Alice:...
+Alice: Estúpido robot.
+
+<< fade 2 >>
+
+===
+
+title: Dialogue_5E
+position: 138,-175
+---
+
+Alice: Holaaaaa.
+Bob: Hola.
+Alice: Vamos, hombre, disfruta, estas personas están haciendo los diálogos.
+Bob: ¿De verdad?
+Alice: Sí, ¿qué quieres decir?
+
+-> Soy Mike y mi color favorito es el verde.
+    Bob: Soy Mike y mi color favorito es el verde.
+    Bob: ¿¡Qué?! Pero ese no es mi nombre.
+    Alice: Lo sé, pero eso es lo que seleccionó el usuario, así que ahora eres Mike.
+    Bob: Wow, eso es una locura.
+
+-> Soy Bob y me gusta jugar al fútbol en el parque.
+    Bob: Soy Bob y me gusta jugar al fútbol en el parque.
+    Bob: Wow...
+    Alice: Sí, lo que sea que seleccionen, es lo que vas a decir.
+    Bob: Entiendo, voy a intentarlo de nuevo. ¿Puedo, verdad?
+    Alice: Sí, por supuesto que puedes.
+
+    -> Tú eres Alice y eres mi amiga.
+       Bob: Tú eres Alice y eres mi amiga.
+       Alice: Mira, eso es una locura. Gracias, por cierto.
+       Bob: Sí, está genial, de nada.
+       << fade 2 >>
+    -> Tú eres Alice y no eres mi amiga.
+       Bob: Tú eres Alice y no eres mi amiga.
+       Alice: ¿¡QUÉ?! ¿Por qué dijiste eso?
+       Bob: Yo no lo hice, fue él.
+       Alice: Oh, sí, eso es cierto, lo siento. Somos amigos, ¿verdad?
+       Bob:...
+       Alice:...
+       << fade 2 >>
+
+===
+
+title: Dialogue_Quiz
+position: 138,-175
+
+---
+
+<<declare $RespuestasCorrectas = 0>>
+
+Bob: Hola, joven explorador. ¿Eres nuevo por aquí?
+
+-> ¿Cómo lo sabes?
+    Bob: Se nota por la ropa que llevas.
+    Alice: Ohhh.
+-> Tanto se nota?
+    Bob: Con la ropa que llevas hasta Luis, que es ciego, lo notaría.
+    Alice: ...
+
+Bob: Cuéntame, ¿de dónde vienes? ¿Vienes de más allá de las murallas?
+Alice: Así es, vengo desde el otro lado del río en busca del culpable del destrozo de mi pueblo.
+Bob: Comprendo tus ganas de cruzar estas puertas y querer pasar a esta aldea.
+Bob: Pero antes de dejarte pasar, deberás responder a una serie de preguntas.
+Bob: ¿Te atreves?
+Alice: Por supuesto.
+Bob: Comencemos, pues.
+
+
+
+Bob: **Primera pregunta:**  
+Bob: ¿Cómo se llama la aldea a la que quieres entrar?
+
+-> Okinawa
+    Bob: Curioso...
+    
+-> Xianyang
+    Bob: Interesante respuesta.
+    <<set $RespuestasCorrectas += 1>>
+    
+
+Bob: **Siguiente pregunta.**  
+Bob: ¿Qué dinastía reina en estos momentos?
+
+-> Zhou
+    Bob: ¿Estás segura?
+    <<set $RespuestasCorrectas += 1>>
+    
+-> Panyiang
+    Bob: Ajam.
+    
+
+Bob: **Última pregunta.**  
+Bob: ¿Cómo se llama el río más cercano?
+
+-> Río Rojo
+    Bob: Comprendo.
+    Bob: Fin del test.
+    
+-> Río Amarillo
+    Bob: Pues ya estaría el test.
+    <<set $RespuestasCorrectas += 1>>
+    
+
+<<if $RespuestasCorrectas >= 3>>
+ Bob: Adelante, aventurero. No causes problemas.
+ <<OpenDoorTP>>
+<<else>>
+ Bob: Más suerte la próxima vez.
+<<endif>>
+
+===
+
+title: Dialogue_Money
+position: 138,-175
+---
+
+Alice: Ummm, Hola?
+Bob: Hola, eres nuevo por aquí?
+Alice: Sí, justo hice el test del guardia de la puerta y me dejó entrar.
+Bob: Ahm, así que entonces debe de ser bastante listo.
+Alice: Supongo?
+Alice:...
+Bob:...
+Bob: Querías algo?
+Alice: Umm sí, necesito unas monedas para comprar comida.
+Bob: Comida? Seguro es comida lo que necesitas?
+Alice: Sí, comida recién hecha.
+Bob: Vale, cuanto necesitarías?
+Alice: 100 monedas.
+Bob: 100 MONEDAS!?!?!?
+Alice: Sí, vengo desde muy lejos para probar un plato único de aquí que vale ese precio.
+Bob: Eso es mentira, vivo aquí desde hace mucho y no hay un plato así.
+Alice:...
+Bob:...
+Bob: Bueno te daré las monedas porque eres la única persona que me ha hablado desde lo ocurrido.
+Alice: Qué te pasó?
+Bob: Mejor que no lo sepas, toma tus monedas.
+Alice: Muchas gracias.
+
+<<DarMonedas>>
+
+===
+
+title: Dialogue_Chef
+
+---
+
+Bob: Hola, quieres algo de tomar?
+
+-> Sobre el gran rio amarillo
+    Bob: La aldea de Xianyang se cierne
+    << jump Dialogue_Chef1>>
+    
+-> Sobre el gran rio rojo
+    Bob: Perdón?.
+    Alice: ...
+    Alice: Voy a mirar y si necesito algo te aviso.
+    Bob: Entendido
+    Alice: ** Necesito saber la contraseña **
+
+
+
+<<fade 1>>
+===
+
+title: Dialogue_Chef1
+
+---
+<<declare $RespuestasCorrectasChef = 0>>
+
+-> Dirigida por la dianstía Qin
+    Bob: Curioso...
+    
+-> Dirigida por la dinastía Zhou
+    Bob: Interesante respuesta.
+    Bob: Te espero en la puerta al lado de la cocina, no tardes o me iré.
+    <<set $RespuestasCorrectasChef += 1>>
+    
+
+<<if $RespuestasCorrectasChef >= 1>>
+ 
+ <<OpenDoorCocina>>
+<<else>>
+ Bob: Debió ser casualidad.
+ Bob: Quieres algo de tomar?
+ Alice:...
+ Bob:...
+<<endif>>
+
+===
+
+title: Dialogue_Rio
+
+---
+
+Bob: El cuadro representa el famoso río amarillo, importante para la proliferacion de dinastías como Qin, Zhou, Amarilla.
+Alice: Debe ser importante para descubrir la contraseña.
+<<fade 1>>
+
+===
+
+title: Dialogue_Zhou
+
+---
+
+
+Bob: Un retrato del primer emperador de la dinastía Zhou.
+Alice: Puede servir.
+<<fade 1>>
+
+===
+
+title: Dialogue_Basura
+
+---
+
+Alice: Lo pondré vender.
+<<QuitarBasura>>
+<<fade 1>>
+
+===
+
+title: Dialogue_6
+
+---
+
+Bob: I knew you’d come… Always so predictable.
+Alice: And I knew you wouldn’t have the guts to run. In the end, it all comes down to this.
+Bob: This wasn’t my choice. But since we’re here… why don’t we finish it?
+Alice:  No need to rush. I want to enjoy this.
+Bob: You’ve always been an arrogant fool. That’s what will make you lose.
+Alice: Lose? Don’t make me laugh. I’ve been waiting for this moment for a long time.
+Bob: Then stop talking… and fight.
+
+    <<StartCombat combatA>>
+===
