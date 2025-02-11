@@ -483,7 +483,7 @@ title: Dialogue_Rio
 
 Bob: El cuadro representa el famoso río amarillo, importante para la proliferacion de dinastías como Qin, Zhou, Amarilla.
 Alice: Debe ser importante para descubrir la contraseña.
-<<fade 1>>
+
 
 ===
 
@@ -494,7 +494,7 @@ title: Dialogue_Zhou
 
 Bob: Un retrato del primer emperador de la dinastía Zhou.
 Alice: Puede servir.
-<<fade 1>>
+
 
 ===
 
@@ -504,7 +504,6 @@ title: Dialogue_Basura
 
 Alice: Lo pondré vender.
 <<QuitarBasura>>
-<<fade 1>>
 
 ===
 
@@ -512,13 +511,14 @@ title: Dialogue_6
 
 ---
 
-Bob: I knew you’d come… Always so predictable.
-Alice: And I knew you wouldn’t have the guts to run. In the end, it all comes down to this.
-Bob: This wasn’t my choice. But since we’re here… why don’t we finish it?
-Alice:  No need to rush. I want to enjoy this.
-Bob: You’ve always been an arrogant fool. That’s what will make you lose.
-Alice: Lose? Don’t make me laugh. I’ve been waiting for this moment for a long time.
-Bob: Then stop talking… and fight.
+Bob: Sabia que ibas a venir... Siempre tan predecible.
+Alice: Y sabía que no tendrías las agallas para huir. Al final todo se reduce a esto.
+Bob: Esta no fue mi elección. Pero ya que estamos aquí… ¿por qué no lo terminamos?
+Alice: No hay necesidad de apresurarse. Quiero disfrutar esto.
+Bob: Siempre has sido un tonto arrogante. Eso es lo que te hará perder.
+Alice: ¿Perder? No me hagas reír. He estado esperando este momento durante mucho tiempo.
+Bob: Entonces deja de hablar… y pelea.
 
     <<StartCombat combatA>>
+
 ===
