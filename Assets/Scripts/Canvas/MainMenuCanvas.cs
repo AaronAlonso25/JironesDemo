@@ -55,6 +55,7 @@ namespace NeonBlood
 
         void Start()
         {
+            
 
         }
 
@@ -76,6 +77,21 @@ namespace NeonBlood
             else if (Input.GetButtonDown("R1_UI") && this.LevelsPanel.activeSelf)
             {
                 this.NextChapterPanel(1);
+            }
+
+            if (OptionsPanel.activeSelf) 
+            {
+                if (Input.GetKeyDown(KeyCode.Q)) 
+                {
+                    slider_musica.value = Mathf.Max(slider_musica.value - 1, slider_musica.minValue);
+                    UpdateVolumeLabel();
+                }
+
+                if (Input.GetKeyDown(KeyCode.E)) 
+                {
+                    slider_musica.value = Mathf.Min(slider_musica.value + 1, slider_musica.maxValue);
+                    UpdateVolumeLabel();
+                }
             }
         }
 
@@ -195,6 +211,7 @@ namespace NeonBlood
         public void ConfigOptionsPanel()
         {
             FindFirstObjectByType<GraphyManager>().ToggleActive();
+            UpdateVolumeLabel();
         }
 
         public void ShowOptionsPanel()

@@ -124,6 +124,8 @@ namespace NeonBlood
                 DontDestroyOnLoad(this);
             }
 
+            
+
 #if !UNITY_GAMECORE
             this.OnPlayerPrefsInit();
 #endif
@@ -483,6 +485,16 @@ namespace NeonBlood
 
             return info;
         }
+
+        public void Start()
+        {
+            Cursor.visible = false; 
+        } 
+         public void Update()
+        {
+            Cursor.visible = false; 
+        } 
+
 
         #endregion
     }
