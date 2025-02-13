@@ -461,13 +461,14 @@ title: Dialogue_Chef1
     
 -> Dirigida por la dinastía Zhou
     Bob: Interesante respuesta.
-    Bob: Te espero en la puerta al lado de la cocina, no tardes o me iré.
+    Bob: En las sillas junto a la pared de la derecha hay un boton pulsalo para que se abra la puerta.
+    Bob: Te esperan al otro lado de la puerta, ten cuidado aunque ya sabes quien está esperando.
     <<set $RespuestasCorrectasChef += 1>>
     
 
 <<if $RespuestasCorrectasChef >= 1>>
  
- <<OpenDoorCocina>>
+ <<OpenBoton>>
 <<else>>
  Bob: Debió ser casualidad.
  Bob: Quieres algo de tomar?
@@ -504,6 +505,20 @@ title: Dialogue_Basura
 
 Alice: Lo pondré vender.
 <<QuitarBasura>>
+
+===
+
+title: Dialogue_Boton
+
+---
+
+Alice: Este es el boton que dice el chef.
+
+-> Pulsar
+ Alice: Deberia dirigirme a la puerta.
+  <<OpenDoorCocina>>
+-> Esperar
+   Alice: Voy a seguir mirando.
 
 ===
 

@@ -19,6 +19,7 @@ public class DoorEvent2 : MonoBehaviour
      private GameObject player;
 
     public GameObject doorblocked; 
+    public GameObject botonblocked;
 
     public DialogueRunner dialogueRunner;
 
@@ -26,12 +27,14 @@ public class DoorEvent2 : MonoBehaviour
     {
         dialogueRunner.AddCommandHandler("OpenDoorTP",OpenDoor); 
         dialogueRunner.AddCommandHandler("OpenDoorCocina",OpenDoorCocina);
+        dialogueRunner.AddCommandHandler("OpenBoton",OpenBoton);
     }
 
     private void Start()
     {
         
         doorblocked.SetActive(false);
+        botonblocked.SetActive(false);
     }
 
     
@@ -85,6 +88,11 @@ public class DoorEvent2 : MonoBehaviour
         {
             doorblocked.SetActive(true); 
             Debug.Log("La puerta ahora está abierta.");
+        }
+        public void OpenBoton()
+        {
+            botonblocked.SetActive(true); 
+            Debug.Log("El boton esta disponible.");
         }
 
        

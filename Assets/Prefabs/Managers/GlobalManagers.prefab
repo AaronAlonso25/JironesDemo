@@ -76,6 +76,8 @@ MonoBehaviour:
         StateNPC: 0
       - NameNPC: NPC_4
         StateNPC: 0
+      - NameNPC: NPC_5
+        StateNPC: 0
     - NameLevel: JironesCombat
       CurrentCheckPointIndex: 0
       CurrentPlayerNPCs:
