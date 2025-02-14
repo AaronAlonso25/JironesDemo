@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using MoreMountains.Tools;
 using TMPro;
 using DamageNumbersPro;
+using UnityEngine.SceneManagement;
 
 namespace NeonBlood
 {
@@ -229,6 +230,7 @@ namespace NeonBlood
             //Automatizo la busqueda de los objetos no relacionados con el combate
             this.TeamAxelParent = GameObject.Find("AxelParty").transform;
             this.TeamEnemyParent = GameObject.Find("EnemiesParty").transform;
+
 
             foreach (Transform child in this.TeamAxelParent)
                 this.TeamAxelPositions.Add(child);
@@ -496,16 +498,17 @@ namespace NeonBlood
             if (this.IsVictory())
             {
                 Debug.Log("VICTORY");
-                this.EndCombat(true);
-
+               // this.EndCombat(true);
+              
+                SceneManager.LoadScene("SceneCombat2");
                 return;
             }
 
             if (this.IsDefeat())
             {
                 Debug.Log("DEFEAT");
-                this.EndCombat(false);
-
+               // this.EndCombat(false);
+                 SceneManager.LoadScene("CombatEnd");
                 return;
             }
 
@@ -700,7 +703,7 @@ namespace NeonBlood
             //Oculto el panel
             this.CombatPanel.SetActive(false);
 
-            //Asocio la accion
+            //Asocio la accion  
             this.CombatAction = COMBAT_RPGACTION.DEFEND;
 
             //Activo la defensa de Axel
@@ -845,17 +848,17 @@ namespace NeonBlood
 
             //LOG
             Debug.Log("Axel ataca a " + this.TeamEnemy[this.indexSelector].CharacterName + " con el arma " + this.GetAxel().CharacterWeapon.WeaponName +
-                " inflingiendo " + damage + " de daño");
+                " inflingiendo " + damage + " de daï¿½o");
 
             this.AttackLogInfo.AttackIntro = "Axel Attack " + this.GetAxel().CharacterWeapon.WeaponName;
-            this.ShowLog(this.AttackLogInfo);
+           // this.ShowLog(this.AttackLogInfo);
 
             //Desactivo el selector
             this.TeamEnemy[this.indexSelector].CharacterSelectorObject.SetActive(false);
 
             //Animaciones
             yield return StartCoroutine(this.ExecuteCharacterAnimation(this.GetAxel(), "Normal Attack"));
-            yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //¿No hay animacion de Hit?
+            yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //ï¿½No hay animacion de Hit?
 
             //VFX
             this.ExecuteDamageVFX(
@@ -923,7 +926,7 @@ namespace NeonBlood
 
                 //Animaciones
                 yield return StartCoroutine(this.ExecuteCharacterAnimation(this.GetAxel(), "Normal Attack"));
-                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //¿No hay animacion de Hit?
+                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //ï¿½No hay animacion de Hit?
             }
             else if (this.GetAxel().CharacterSpecialWeapons[indexWeapon].WeaponID == "Stunner")
             {
@@ -934,11 +937,11 @@ namespace NeonBlood
 
                 //LOG
                 Debug.Log("Axel ataca a " + this.TeamEnemy[this.indexSelector].CharacterName + " con el arma " + this.GetAxel().CharacterSpecialWeapons[indexWeapon].WeaponName +
-                    " inflingiendo " + damage + " de daño");
+                    " inflingiendo " + damage + " de daï¿½o");
 
                 //Animaciones
                 yield return StartCoroutine(this.ExecuteCharacterAnimation(this.GetAxel(), "Normal Attack"));
-                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //¿No hay animacion de Hit?
+                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //ï¿½No hay animacion de Hit?
 
                 //VFX
                 this.ExecuteDamageVFX(
@@ -962,14 +965,14 @@ namespace NeonBlood
 
                     //LOG
                     Debug.Log("Axel ataca a " + enemy.CharacterName + " con el arma " + this.GetAxel().CharacterSpecialWeapons[indexWeapon].WeaponName +
-                        " inflingiendo " + damage + " de daño");
+                        " inflingiendo " + damage + " de daï¿½o");
                 }
 
                 //Animaciones
                 yield return StartCoroutine(this.ExecuteCharacterAnimation(this.GetAxel(), "Normal Attack"));
                 for (int i = 0; i < this.GrenadeArea().Count; i++)
                 {
-                    StartCoroutine(this.FlickerCharacter(this.GrenadeArea()[i])); //¿No hay animacion de Hit?
+                    StartCoroutine(this.FlickerCharacter(this.GrenadeArea()[i])); //ï¿½No hay animacion de Hit?
 
                     //VFX
                     this.ExecuteDamageVFX(
@@ -987,11 +990,11 @@ namespace NeonBlood
 
                 //LOG
                 Debug.Log("Axel ataca a " + this.TeamEnemy[this.indexSelector].CharacterName + " con el arma " + this.GetAxel().CharacterSpecialWeapons[indexWeapon].WeaponName +
-                    " inflingiendo " + damage + " de daño");
+                    " inflingiendo " + damage + " de daï¿½o");
 
                 //Animaciones
                 yield return StartCoroutine(this.ExecuteCharacterAnimation(this.GetAxel(), "Normal Attack"));
-                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //¿No hay animacion de Hit?
+                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //ï¿½No hay animacion de Hit?
 
                 //VFX
                 this.ExecuteDamageVFX(
@@ -1058,7 +1061,7 @@ namespace NeonBlood
 
                 //LOG
                 Debug.Log("Axel ataca a " + this.TeamEnemy[this.indexSelector].CharacterName + " con la habilidad " + this.GetAxel().CharacterAbilities[indexAbility].AbilityName +
-                    " inflingiendo " + damage + " de daño");
+                    " inflingiendo " + damage + " de daï¿½o");
             }
             else if (this.GetAxel().CharacterAbilities[indexAbility].AbilityID == "ProtectiveField")
             {
@@ -1074,7 +1077,7 @@ namespace NeonBlood
 
                 //LOG
                 Debug.Log("Axel ataca a " + this.TeamEnemy[this.indexSelector].CharacterName + " con la habilidad " + this.GetAxel().CharacterAbilities[indexAbility].AbilityName +
-                    " inflingiendo " + damage + " de daño");
+                    " inflingiendo " + damage + " de daï¿½o");
             }
             else if (this.GetAxel().CharacterAbilities[indexAbility].AbilityID == "Speed")
             {
@@ -1088,12 +1091,12 @@ namespace NeonBlood
 
                 //LOG
                 Debug.Log("Axel ataca a " + this.TeamEnemy[this.indexSelector].CharacterName + " con la habilidad " + this.GetAxel().CharacterAbilities[indexAbility].AbilityName +
-                    " inflingiendo " + damage + " de daño");
+                    " inflingiendo " + damage + " de daï¿½o");
             }
             else if (this.GetAxel().CharacterAbilities[indexAbility].AbilityID == "MetabolicAdaptation")
             {
                 //Aumento de Vida
-                Dice healthDice = new Dice(1, 20);
+                Dice healthDice = new Dice(2, 8);
 
                 damage = -healthDice.DiceRoll();
                 this.GetAxel().ApplyDamage(damage);
@@ -1105,14 +1108,14 @@ namespace NeonBlood
 
                 //LOG
                 Debug.Log("Axel ataca a " + this.TeamEnemy[this.indexSelector].CharacterName + " con el arma " + this.GetAxel().CharacterSpecialWeapons[indexWeapon].WeaponName +
-                    " inflingiendo " + damage + " de daño");
+                    " inflingiendo " + damage + " de daï¿½o");
             }
 
             //Animaciones
             if (this.GetAxel().CharacterAbilities[indexAbility].AbilityID != "MetabolicAdaptation")
             {
                 yield return StartCoroutine(this.ExecuteCharacterAnimation(this.GetAxel(), "Normal Attack"));
-                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //¿No hay animacion de Hit?
+                yield return StartCoroutine(this.FlickerCharacter(this.TeamEnemy[this.indexSelector])); //ï¿½No hay animacion de Hit?
             }
 
             //VFX
@@ -1169,10 +1172,10 @@ namespace NeonBlood
 
             //LOG
             Debug.Log(enemy.CharacterName + " ataca a Axel con el arma " + enemy.CharacterWeapon.WeaponName +
-                " inflingiendo " + damage + " de daño");
+                " inflingiendo " + damage + " de daï¿½o");
 
             this.AttackLogInfo.AttackIntro = enemy.CharacterName + " Attack " + enemy.CharacterWeapon.WeaponName;
-            this.ShowLog(this.AttackLogInfo);
+           // this.ShowLog(this.AttackLogInfo);
 
             //Animaciones
             yield return StartCoroutine(this.ExecuteCharacterAnimation(enemy, "Normal Attack"));
@@ -1185,7 +1188,7 @@ namespace NeonBlood
             this.ExecuteHitVFX(
                     this.VFXHitPrefab, this.GetAxel().CharacterSelectorObject.transform.position);
 
-            //Animación Hit de Axel
+            //Animaciï¿½n Hit de Axel
             yield return StartCoroutine(this.ExecuteCharacterAnimation(this.GetAxel(), "Hit"));
 
             //Actualizamos interfaz
@@ -1385,7 +1388,7 @@ namespace NeonBlood
             //Blindness
             if (attacker.CharacterStates.IsBlind)
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1394,7 +1397,7 @@ namespace NeonBlood
             float damage = 0;
             if (diceRoll == dice.Value.x) //Fallo 
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1402,13 +1405,13 @@ namespace NeonBlood
             else if (diceRoll == dice.Value.y) //Critico
             {
                 damage = diceRoll * 2;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daño x2");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daï¿½o x2");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
             }
             else //Normal
             {
                 damage = diceRoll;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
             }
 
             //Evasion
@@ -1418,23 +1421,23 @@ namespace NeonBlood
                 if (evasion == 1) //Pifia
                 {
                     damage *= 2;
-                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho una PIFIA. Daño x2");
+                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho una PIFIA. Daï¿½o x2");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
                 }
                 else if (evasion == 2 || evasion == 3) //Fracaso
                 {
                     //damage = damage;
-                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho un FRACASO. Daño x1");
+                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho un FRACASO. Daï¿½o x1");
                 }
                 else if (evasion == 4 || evasion == 5) //Exito
                 {
                     damage /= 2;
-                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un EXITO. Daño /2");
+                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un EXITO. Daï¿½o /2");
                 }
                 else if (evasion == 6) //Critico
                 {
                     damage = 0;
-                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un CRITICO. Daño x0");
+                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un CRITICO. Daï¿½o x0");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.BLOCKED;
                 }
             }
@@ -1454,7 +1457,7 @@ namespace NeonBlood
             //Blindness
             if (attacker.CharacterStates.IsBlind)
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1463,7 +1466,7 @@ namespace NeonBlood
             float damage = 0;
             if (diceRoll == dice.Value.x) //Fallo 
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1471,13 +1474,13 @@ namespace NeonBlood
             else if (diceRoll == dice.Value.y) //Critico
             {
                 damage = diceRoll * 2;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daño x2");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daï¿½o x2");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
             }
             else //Normal
             {
                 damage = diceRoll;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
             }
 
             //Flat Damage
@@ -1490,23 +1493,23 @@ namespace NeonBlood
                 if (evasion == 1) //Pifia
                 {
                     damage *= 2;
-                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho una PIFIA. Daño x2");
+                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho una PIFIA. Daï¿½o x2");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
                 }
                 else if (evasion == 2 || evasion == 3) //Fracaso
                 {
                     //damage = damage;
-                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho un FRACASO. Daño x1");
+                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho un FRACASO. Daï¿½o x1");
                 }
                 else if (evasion == 4 || evasion == 5) // Exito
                 {
                     damage /= 2;
-                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un EXITO. Daño /2");
+                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un EXITO. Daï¿½o /2");
                 }
                 else if (evasion == 6) //Critico
                 {
                     damage = 0;
-                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un CRITICO. Daño x0");
+                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un CRITICO. Daï¿½o x0");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.BLOCKED;
                 }
             }
@@ -1526,19 +1529,19 @@ namespace NeonBlood
             if (diceRoll == dice.Value.x) //Fallo 
             {
                 damage = 0;
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
             }
             else if (diceRoll == dice.Value.y) //Critico
             {
                 damage = diceRoll * 2;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daño x2");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daï¿½o x2");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
             }
             else //Normal
             {
                 damage = diceRoll;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
             }
 
             return damage;
@@ -1552,7 +1555,7 @@ namespace NeonBlood
             //Blindness
             if (attacker.CharacterStates.IsBlind)
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1585,7 +1588,7 @@ namespace NeonBlood
             {
                 if (diceRoll == dice.Value.x) //Fallo 
                 {
-                    Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                    Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                     return 0;
@@ -1593,13 +1596,13 @@ namespace NeonBlood
                 else if (diceRoll == dice.Value.y) //Critico
                 {
                     damage = diceRoll * 2;
-                    Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daño x2");
+                    Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daï¿½o x2");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
                 }
                 else //Normal
                 {
                     damage = diceRoll;
-                    Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                    Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
                 }
             }
 
@@ -1610,23 +1613,23 @@ namespace NeonBlood
                 if (evasion == 1) //Pifia
                 {
                     damage *= 2;
-                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho una PIFIA. Daño x2");
+                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho una PIFIA. Daï¿½o x2");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
                 }
                 else if (evasion == 2 || evasion == 3) //Fracaso
                 {
                     //damage = damage;
-                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho un FRACASO. Daño x1");
+                    Debug.Log(receiver.CharacterName + " ha evadido pero ha hecho un FRACASO. Daï¿½o x1");
                 }
                 else if (evasion == 4 || evasion == 5) //Exito
                 {
                     damage /= 2;
-                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un EXITO. Daño /2");
+                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un EXITO. Daï¿½o /2");
                 }
                 else if (evasion == 6) //Critico
                 {
                     damage = 0;
-                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un CRITICO. Daño x0");
+                    Debug.Log(receiver.CharacterName + " ha evadido y ha hecho un CRITICO. Daï¿½o x0");
                     this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.BLOCKED;
                 }
             }
@@ -1749,7 +1752,7 @@ namespace NeonBlood
 
             if (diceRoll == dice.Value.x) //Fallo 
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1757,13 +1760,13 @@ namespace NeonBlood
             else if (diceRoll == dice.Value.y || diceRoll == dice.Value.y - 1 || diceRoll == dice.Value.y - 2) //Critico
             {
                 damage = diceRoll * 2;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daño x2");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daï¿½o x2");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
             }
             else //Normal
             {
                 damage = diceRoll;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
             }
 
             return damage;
@@ -1775,7 +1778,7 @@ namespace NeonBlood
 
             if (diceRoll == dice.Value.x) //Fallo 
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1783,7 +1786,7 @@ namespace NeonBlood
             else //Normal
             {
                 damage = diceRoll;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
             }
 
             return damage;
@@ -1795,7 +1798,7 @@ namespace NeonBlood
 
             if (diceRoll == dice.Value.x || diceRoll == dice.Value.x + 1 || diceRoll == dice.Value.x + 2) //Fallo 
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1803,13 +1806,13 @@ namespace NeonBlood
             else if (diceRoll == dice.Value.y) //Critico
             {
                 damage = diceRoll * 2;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daño x2");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE CRITICO. Daï¿½o x2");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
             }
             else //Normal
             {
                 damage = diceRoll;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
             }
 
             return damage;
@@ -1821,7 +1824,7 @@ namespace NeonBlood
 
             if (diceRoll == dice.Value.x) //Fallo 
             {
-                Debug.Log(attacker.CharacterName + " ha FALLADO. Daño 0");
+                Debug.Log(attacker.CharacterName + " ha FALLADO. Daï¿½o 0");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.MISS;
 
                 return 0;
@@ -1829,7 +1832,7 @@ namespace NeonBlood
             else //Normal
             {
                 damage = diceRoll;
-                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daño x1");
+                Debug.Log(attacker.CharacterName + " ha hecho un ATAQUE NORMAL. Daï¿½o x1");
                 this.AttackLogInfo.AttackState = COMBAT_RPGATTACKSTATE.CRITICAL;
             }
 

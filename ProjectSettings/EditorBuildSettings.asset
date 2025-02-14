@@ -59,6 +59,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DEMO_JUGABLE/PlaygroundRPGCombat.unity
     guid: 9559accfc36bcd54da81e9ab7daba2ea
+  - enabled: 1
+    path: Assets/Scenes/DEMO_JUGABLE/SceneCombat2.unity
+    guid: 4516b07b9f9445a478b3823973ecde77
+  - enabled: 1
+    path: Assets/Scenes/DEMO_JUGABLE/CombatEnd.unity
+    guid: 9b67ed88170cd9040a24149a52b44411
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 074f2f205b8bd0342b669198455eb7b1, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 13e453d6b0ff70940878a68c51df8c44, type: 2}
