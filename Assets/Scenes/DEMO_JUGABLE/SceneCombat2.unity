@@ -2154,6 +2154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f23ead48acc6d24d864a8add13bd766, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ContadorVictorias: 0
   TeamAxelParent: {fileID: 0}
   TeamEnemyParent: {fileID: 0}
   TeamAxelPositions: []
@@ -5322,7 +5323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3739371570352510200, guid: 319e4f21edb09cd4ba8a0c9f96129dde, type: 3}
       propertyPath: CombatRPGTeamEnemy.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3739371570352510200, guid: 319e4f21edb09cd4ba8a0c9f96129dde, type: 3}
       propertyPath: 'CombatRPGTeamAxel.Array.data[1]'
@@ -5376,8 +5377,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3739371570352510200, guid: 319e4f21edb09cd4ba8a0c9f96129dde, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

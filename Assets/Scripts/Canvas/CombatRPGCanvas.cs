@@ -31,6 +31,9 @@ namespace NeonBlood
     /// </summary>
     public class CombatRPGCanvas : MonoBehaviour
     {
+
+        public float ContadorVictorias=0;
+
         [Header("Art")]
         public Transform TeamAxelParent;
         public Transform TeamEnemyParent;
@@ -110,10 +113,12 @@ namespace NeonBlood
             this.InitializeCombat(
                 DataManager.Instance.CombatRPGTeamAxel,
                 DataManager.Instance.CombatRPGTeamEnemy);
+            
         }
 
         void Update()
         {
+            Debug.Log(ContadorVictorias);
             //Si el selector esta activado
             if (this.isSelectorActive)
             {
@@ -497,10 +502,22 @@ namespace NeonBlood
             //Comprobamos si el combate ha terminado
             if (this.IsVictory())
             {
+                ContadorVictorias=ContadorVictorias+1;
+                Debug.Log(ContadorVictorias);
                 Debug.Log("VICTORY");
                // this.EndCombat(true);
-              
-                SceneManager.LoadScene("SceneCombat2");
+                
+                if(ContadorVictorias>=2)
+                {
+                    SceneManager.LoadScene("CombatEnd");
+                   
+                }
+                else 
+                {
+                    SceneManager.LoadScene("SceneCombat2");
+                    
+                }
+                
                 return;
             }
 
