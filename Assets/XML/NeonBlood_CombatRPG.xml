@@ -7,13 +7,13 @@
       <weapons>
         <weapon key="LaserGun">
           <name>RayGun</name>
-          <attack>0,0</attack>
+          <attack>1,4</attack>
           <recharge>1</recharge>
           <uses>-1</uses>
         </weapon>
         <weapon key="Peashoter">
           <name>peashoter</name>
-          <attack>9,9</attack>
+          <attack>1,12</attack>
           <recharge>1</recharge>
           <uses>-1</uses>
         </weapon>
@@ -25,7 +25,7 @@
         </weapon>
         <weapon key="LaserRifle">
           <name>Rifle Láser</name>
-          <attack>1,10</attack>
+          <attack>1,8</attack>
           <recharge>1</recharge>
           <uses>-1</uses>
         </weapon>
@@ -39,13 +39,13 @@
         </specialWeapon>
         <specialWeapon key="Stunner">
           <name>Taaaser</name>
-          <attack>1,4</attack>
+          <attack>2,4</attack>
           <recharge>3</recharge>
           <uses>1</uses>
         </specialWeapon>
         <specialWeapon key="Cascos">
           <name>Cascos</name>
-          <attack>9,9</attack>
+          <attack>4,9</attack>
           <recharge>1</recharge>
           <uses>-1</uses>
         </specialWeapon>
@@ -63,7 +63,7 @@
         </specialWeapon>
         <specialWeapon key="Antielectronics">
           <name>Antielectrónica</name>
-          <attack>1,20</attack>
+          <attack>4,6</attack>
           <recharge>4</recharge>
           <uses>1</uses>
         </specialWeapon>
